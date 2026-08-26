@@ -1,0 +1,73 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dataglazer-nfl"
+version = "0.1.0"
+description = "NFL data clients, analysis notebooks, and an MCP server reading from ESPN"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Dataglazer" }]
+
+# Deliberately minimal: this is the MCP server's entire footprint. Anything a
+# notebook needs goes in a dependency-group below so that importing the client
+# layer never drags in pandas.
+dependencies = [
+    "mcp>=1.2.0,<2.0.0",
+    "requests>=2.32.0",
+]
+
+[project.scripts]
+nfl-mcp = "dataglazer_nfl.mcp.server:main"
+
+[dependency-groups]
+notebooks = [
+    "ipython",
+    "jupyterlab",
+    "loguru",
+    "matplotlib",
+    "notebook",
+    "numpy",
+    "pandas",
+    "tqdm",
+    "typer",
+]
+ml = [
+    "nflreadpy",
+    "pyarrow",   # polars -> pandas conversion in qb-name-net
+    "polars",
+    "scikit-learn",
+    "torch",
+]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[tool.uv]
+package = true
+default-groups = ["notebooks", "ml", "dev"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+dataglazer_nfl = ["viz/*.mplstyle"]
+
+[tool.ruff]
+line-length = 99
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+extend-select = ["I"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["dataglazer_nfl"]
+force-sort-within-sections = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "network: hits the live ESPN API (deselect with '-m \"not network\"')",
+]

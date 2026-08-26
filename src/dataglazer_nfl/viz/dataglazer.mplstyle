@@ -1,0 +1,89 @@
+# dataglazer.mplstyle
+# Dark theme for @dataglazer Instagram data visualizations
+# Usage: plt.style.use("./dataglazer.mplstyle")
+
+# ── Figure ────────────────────────────────────────────────
+figure.facecolor:       1F2831
+figure.figsize:         10.8, 10.8
+figure.dpi:             100
+figure.autolayout:      False
+
+# ── Axes ──────────────────────────────────────────────────
+axes.facecolor:         171E25
+axes.edgecolor:         2E3A46
+axes.linewidth:         0.8
+axes.labelcolor:        FFFFFF
+axes.titlecolor:        FFFFFF
+axes.titlesize:         18
+axes.titleweight:       bold
+axes.titlepad:          16
+axes.labelsize:         12
+axes.labelpad:          8
+axes.spines.top:        False
+axes.spines.right:      False
+axes.spines.left:       True
+axes.spines.bottom:     True
+
+# Color cycle — cyan, red, gold, orange, purple
+axes.prop_cycle:        cycler('color', ['00E5FF', 'FF4444', 'FFD700', 'FF8C00', 'BB86FC'])
+
+# ── Ticks ─────────────────────────────────────────────────
+xtick.color:            B7C4D2
+ytick.color:            B7C4D2
+xtick.labelsize:        11
+ytick.labelsize:        11
+xtick.major.size:       4
+ytick.major.size:       4
+xtick.major.width:      0.8
+ytick.major.width:      0.8
+xtick.minor.visible:    False
+ytick.minor.visible:    False
+xtick.direction:        out
+ytick.direction:        out
+
+# ── Grid ──────────────────────────────────────────────────
+axes.grid:              True
+# Horizontal-bar oriented by default; override per-figure for line/scatter.
+axes.grid.axis:         x
+grid.color:             2A3542
+grid.linewidth:         0.8
+grid.linestyle:         --
+grid.alpha:             1.0
+
+# ── Lines ─────────────────────────────────────────────────
+lines.linewidth:        2.5
+lines.markersize:       8
+lines.solid_capstyle:   round
+lines.dash_capstyle:    round
+
+# ── Patches (bars, fills) ─────────────────────────────────
+patch.linewidth:        0
+patch.edgecolor:        none
+patch.antialiased:      True
+
+# ── Text ──────────────────────────────────────────────────
+text.color:             FFFFFF
+font.family:            sans-serif
+font.sans-serif:        Baloo 2, Poppins, DejaVu Sans, Arial
+font.size:              12
+
+# ── Legend ────────────────────────────────────────────────
+legend.facecolor:       171E25
+legend.edgecolor:       2E3A46
+legend.labelcolor:      FFFFFF
+legend.fontsize:        11
+legend.framealpha:      0.9
+legend.borderpad:       0.6
+legend.labelspacing:    0.4
+
+# ── Scatter ───────────────────────────────────────────────
+scatter.marker:         o
+scatter.edgecolors:     none
+
+# ── Save ──────────────────────────────────────────────────
+savefig.facecolor:      1F2831
+savefig.edgecolor:      none
+savefig.bbox:           tight
+savefig.pad_inches:     0.3
+savefig.dpi:            100
+savefig.format:         png

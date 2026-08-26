@@ -1,0 +1,41 @@
+# Environment / secrets
+.env
+.env.local
+
+# Caches — machine-managed, fully regenerable by refetching
+data/cache/
+
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Tooling caches
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Jupyter
+profile_default/
+ipython_config.py
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store

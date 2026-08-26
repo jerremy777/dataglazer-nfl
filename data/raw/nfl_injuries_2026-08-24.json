@@ -1,0 +1,7742 @@
+{
+ "source": "ESPN via custom NFL MCP server (list_injuries, include_depth=True)",
+ "captured": "2026-08-24",
+ "season": "2026 preseason",
+ "n_records": 421,
+ "records": [
+  {
+   "name": "Carson Beck",
+   "team": "ARI",
+   "position": "QB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "QB",
+     "rank": 3,
+     "slot": 9
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ribs",
+   "details": "Coach Mike LaFleur said Beck (ribs) \"most likely\" won't suit up for Saturday's preseason contest against the Cowboys, Josh Weinfuss of ESPN.com reports.",
+   "date": "2026-08-20T21:21Z"
+  },
+  {
+   "name": "Trey Benson",
+   "team": "ARI",
+   "position": "RB",
+   "rank": null,
+   "depth": [],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "Benson (knee) was waived/injured by the Cardinals on Monday, Darren Urban of the team's official site reports.",
+   "date": "2026-08-24T20:37Z"
+  },
+  {
+   "name": "Chase Bisontis",
+   "team": "ARI",
+   "position": "G",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RG",
+     "rank": 3,
+     "slot": 6
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee - MCL",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Joey Blount",
+   "team": "ARI",
+   "position": "S",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "FS",
+     "rank": 4,
+     "slot": 10
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Neck",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Zachary Carter",
+   "team": "ARI",
+   "position": "DT",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LDT",
+     "rank": 2,
+     "slot": 2
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "James Conner",
+   "team": "ARI",
+   "position": "RB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 3,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Foot",
+   "details": "Head coach Mike LaFleur said Saturday that there is no timeline for Conner (foot) to participate in 11-on-11 drills in training camp practice, Darren Urban of the Cardinals' official site reports.",
+   "date": "2026-08-15T15:51Z"
+  },
+  {
+   "name": "Jameson Geers",
+   "team": "ARI",
+   "position": "TE",
+   "rank": 7,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 7,
+     "slot": 10
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Blake Gillikin",
+   "team": "ARI",
+   "position": "P",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "P",
+     "rank": 1,
+     "slot": 2
+    },
+    {
+     "unit": "Special Teams",
+     "position": "H",
+     "rank": 1,
+     "slot": 3
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Groin",
+   "details": "Gillikin sustained a groin injury during pregame warmups and is questionable to play in Saturday's preseason game against the Cowboys, Darren Urban of the Cardinals' official site reports.",
+   "date": "2026-08-23T02:12Z"
+  },
+  {
+   "name": "Elijah Higgins",
+   "team": "ARI",
+   "position": "TE",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 3,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Concussion",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Austin Keys",
+   "team": "ARI",
+   "position": "LB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "MLB",
+     "rank": 3,
+     "slot": 6
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Jeremiyah Love",
+   "team": "ARI",
+   "position": "RB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 1,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ankle",
+   "details": "Coach Mike LaFleur said Monday that Love is progressing in his recovery from a high-ankle sprain but will remain sidelined this week, Darren Urban of the Cardinals' official site reports.",
+   "date": "2026-08-24T19:49Z"
+  },
+  {
+   "name": "Kaleb Proctor",
+   "team": "ARI",
+   "position": "DT",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LDT",
+     "rank": 5,
+     "slot": 2
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee - Meniscus",
+   "details": "Proctor (knee) is expected to miss the entire 2026 campaign, Bo Brack of GoPHNX.com reports.",
+   "date": "2026-07-24T23:20Z"
+  },
+  {
+   "name": "Tip Reiman",
+   "team": "ARI",
+   "position": "TE",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 2,
+     "slot": 10
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Ankle",
+   "details": "Reiman (ankle) will not be back for the start of the regular season, Darren Urban of the Cardinals' official site reports.",
+   "date": "2026-08-21T01:06Z"
+  },
+  {
+   "name": "Dadrion Taylor-Demerson",
+   "team": "ARI",
+   "position": "S",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "FS",
+     "rank": 2,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ribs",
+   "details": "Taylor-Demerson is questionable to return to Saturday's preseason game against the Cowboys due to a rib injury.",
+   "date": "2026-08-23T02:45Z"
+  },
+  {
+   "name": "Xavier Weaver",
+   "team": "ARI",
+   "position": "WR",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "KR",
+     "rank": 4,
+     "slot": 5
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 10,
+     "slot": 1
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Concussion",
+   "details": "ir",
+   "date": "2026-08-24T20:32Z"
+  },
+  {
+   "name": "Billy Bowman Jr.",
+   "team": "ATL",
+   "position": "CB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "NB",
+     "rank": 1,
+     "slot": 12
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Achilles",
+   "details": "The Falcons placed Bowman (Achilles) on the active/PUP list Wednesday.",
+   "date": "2026-07-30T00:28Z"
+  },
+  {
+   "name": "Kam Dewberry",
+   "team": "ATL",
+   "position": "G",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RG",
+     "rank": 2,
+     "slot": 6
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Leg",
+   "details": "Dewberry (leg) exited Saturday's preseason game against the Colts early, Tori McElhaney of the Falcons' official site reports.",
+   "date": "2026-08-22T19:46Z"
+  },
+  {
+   "name": "DeAngelo Malone",
+   "team": "ATL",
+   "position": "LB",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "SLB",
+     "rank": 5,
+     "slot": 7
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Undisclosed",
+   "details": "The Falcons placed Malone (undisclosed) on the reserve/PUP list Tuesday, Will McFadden of the team's official site reports.",
+   "date": "2026-08-04T22:34Z"
+  },
+  {
+   "name": "Storm Norton",
+   "team": "ATL",
+   "position": "OT",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RT",
+     "rank": 5,
+     "slot": 7
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Foot",
+   "details": "Norton (foot) was placed on the reserve/PUP list by the Falcons on Thursday, Will McFadden of the team's official site reports.",
+   "date": "2026-06-12T00:58Z"
+  },
+  {
+   "name": "James Pearce Jr.",
+   "team": "ATL",
+   "position": "LB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "SLB",
+     "rank": 4,
+     "slot": 7
+    }
+   ],
+   "status": "Suspension",
+   "injury_type": "Suspension",
+   "details": "reserve-sus",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Michael Penix Jr.",
+   "team": "ATL",
+   "position": "QB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "QB",
+     "rank": 2,
+     "slot": 9
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee - ACL",
+   "details": "Both Tua Tagovailoa and Penix (knee) will take reps with the first-team offense Monday, Tori McElhaney of the Falcons' official site reports.",
+   "date": "2026-08-24T17:53Z"
+  },
+  {
+   "name": "Trey Sermon",
+   "team": "ATL",
+   "position": "RB",
+   "rank": 6,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 6,
+     "slot": 11
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "The Falcons placed Sermon (undisclosed) on injured reserve Wednesday, Tori McElhaney of the team's official site reports.",
+   "date": "2026-08-19T23:30Z"
+  },
+  {
+   "name": "Anterio Thompson",
+   "team": "ATL",
+   "position": "DT",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "NT",
+     "rank": 3,
+     "slot": 2
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Undisclosed",
+   "details": "The Falcons placed Thompson (undisclosed) on the active/non-football injury list Saturday, Marc Raimondi of ESPN.com reports.",
+   "date": "2026-07-26T14:48Z"
+  },
+  {
+   "name": "Malik Verdon",
+   "team": "ATL",
+   "position": "LB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "FS",
+     "rank": 4,
+     "slot": 10
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Jalon Walker",
+   "team": "ATL",
+   "position": "LB",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "WLB",
+     "rank": 5,
+     "slot": 4
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee - ACL",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Teddye Buchanan",
+   "team": "BAL",
+   "position": "LB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RILB",
+     "rank": 1,
+     "slot": 6
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee - ACL",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Jay Higgins IV",
+   "team": "BAL",
+   "position": "LB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "LILB",
+     "rank": 2,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Concussion",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Jamon Johnson",
+   "team": "BAL",
+   "position": "LB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RILB",
+     "rank": 4,
+     "slot": 6
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Thumb",
+   "details": "questionable",
+   "date": "2026-08-24T22:11Z"
+  },
+  {
+   "name": "Nnamdi Madubuike",
+   "team": "BAL",
+   "position": "DT",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "LDE",
+     "rank": 1,
+     "slot": 1
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Neck",
+   "details": "Head coach Jesse Minter said Monday that he didn't have a \"definitive answer\" for whether Madubuike (neck) will be available for the Ravens' regular-season opener against the Colts on Sunday, Sept. 13, Jeff Zrebiec of The Athletic reports.",
+   "date": "2026-08-24T22:40Z"
+  },
+  {
+   "name": "Aeneas Peebles",
+   "team": "BAL",
+   "position": "DT",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RDE",
+     "rank": 3,
+     "slot": 3
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Danny Pinter",
+   "team": "BAL",
+   "position": "C",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "C",
+     "rank": 4,
+     "slot": 5
+    }
+   ],
+   "status": "Doubtful",
+   "injury_type": "Knee",
+   "details": "Pinter tore his patella tendon during a joint session against Minnesota on Wednesday, Mike Garafolo of NFL Network reports.",
+   "date": "2026-08-21T02:32Z"
+  },
+  {
+   "name": "Adam Randall",
+   "team": "BAL",
+   "position": "RB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "KR",
+     "rank": 4,
+     "slot": 5
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 4,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "Head coach Jesse Minter told reporters that Randall (undisclosed) is \"working through things physically,\" which is why the rookie fifth-rounder did not play in the Ravens' 13-3 preseason win over the Vikings on Saturday, Ryan Mink of the Ravens' official site reports.",
+   "date": "2026-08-22T20:56Z"
+  },
+  {
+   "name": "Jahquez Robinson",
+   "team": "BAL",
+   "position": "S",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "SS",
+     "rank": 3,
+     "slot": 9
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "Robinson (undisclosed) reverted to the Ravens' injured reserve list Wednesday, Aaron Wilson of KPRC 2 Houston reports.",
+   "date": "2026-08-20T00:15Z"
+  },
+  {
+   "name": "Skylar Thompson",
+   "team": "BAL",
+   "position": "QB",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "QB",
+     "rank": 5,
+     "slot": 9
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Dayton Wade",
+   "team": "BAL",
+   "position": "WR",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "PR",
+     "rank": 3,
+     "slot": 4
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 8,
+     "slot": 2
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Skyler Bell",
+   "team": "BUF",
+   "position": "WR",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 5,
+     "slot": 2
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Lower Body",
+   "details": "Bell (lower body) will not participate in Saturday's preseason game against the Browns, Jay Skurski of The Buffalo News reports.",
+   "date": "2026-08-22T16:46Z"
+  },
+  {
+   "name": "Keon Coleman",
+   "team": "BUF",
+   "position": "WR",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "PR",
+     "rank": 2,
+     "slot": 4
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 3,
+     "slot": 8
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Foot",
+   "details": "questionable",
+   "date": "2026-08-22T16:35Z"
+  },
+  {
+   "name": "Demetrius Flannigan-Fowles",
+   "team": "BUF",
+   "position": "LB",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RILB",
+     "rank": 5,
+     "slot": 6
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Michael Hoecht",
+   "team": "BUF",
+   "position": "DE",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "WLB",
+     "rank": 2,
+     "slot": 4
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Achilles",
+   "details": "The Bills have been working Hoecht (Achilles) into full team drills since the start of training camp, Tim Graham of The Athletic reports.",
+   "date": "2026-08-04T21:50Z"
+  },
+  {
+   "name": "Ty Johnson",
+   "team": "BUF",
+   "position": "RB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "KR",
+     "rank": 2,
+     "slot": 5
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 3,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Lower Leg",
+   "details": "Johnson (lower leg) didn't practice Monday, Ryan Miller of the Rochester Democrat and Chronicle reports.",
+   "date": "2026-08-24T19:32Z"
+  },
+  {
+   "name": "Phidarian Mathis",
+   "team": "BUF",
+   "position": "DT",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "LDE",
+     "rank": 2,
+     "slot": 1
+    }
+   ],
+   "status": "Suspension",
+   "injury_type": "Suspension",
+   "details": "reserve-sus",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Connor McGovern",
+   "team": "BUF",
+   "position": "C",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "C",
+     "rank": 1,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Leg",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Khalil Shakir",
+   "team": "BUF",
+   "position": "WR",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "PR",
+     "rank": 1,
+     "slot": 4
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 2,
+     "slot": 2
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "Shakir (undisclosed) won't play in Saturday's preseason game against Cleveland, Jay Skurski of The Buffalo News reports.",
+   "date": "2026-08-22T16:46Z"
+  },
+  {
+   "name": "Tyrell Shavers",
+   "team": "BUF",
+   "position": "WR",
+   "rank": 7,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 7,
+     "slot": 1
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Knee - ACL",
+   "details": "The Bills placed Shavers (knee) on the active/PUP list Tuesday, Matt Parrino of The Syracuse Post-Standard reports.",
+   "date": "2026-07-28T21:40Z"
+  },
+  {
+   "name": "Dorian Strong",
+   "team": "BUF",
+   "position": "CB",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RCB",
+     "rank": 5,
+     "slot": 11
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Neck",
+   "details": "Strong (neck) reverted to the reserve/non-football injury list Friday.",
+   "date": "2026-06-12T21:21Z"
+  },
+  {
+   "name": "Chris Brazzell II",
+   "team": "CAR",
+   "position": "WR",
+   "rank": 12,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 12,
+     "slot": 8
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee",
+   "details": "The Panthers placed Brazzell (knee) on injured reserve Friday.",
+   "date": "2026-07-31T18:57Z"
+  },
+  {
+   "name": "Derrick Brown",
+   "team": "CAR",
+   "position": "DT",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "LDE",
+     "rank": 1,
+     "slot": 1
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Dan Chisena",
+   "team": "CAR",
+   "position": "WR",
+   "rank": 13,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 13,
+     "slot": 1
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "The Panthers placed Chisena (undisclosed) on injured reserve Wednesday, Darin Gantt of the team's official site reports.",
+   "date": "2026-07-29T21:27Z"
+  },
+  {
+   "name": "Ikem Ekwonu",
+   "team": "CAR",
+   "position": "OT",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "LT",
+     "rank": 1,
+     "slot": 3
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Knee",
+   "details": "Ekwonu (knee) was placed on the active/PUP list Wednesday, Darin Gantt of the Panthers' official website reports.",
+   "date": "2026-07-23T01:24Z"
+  },
+  {
+   "name": "Chuba Hubbard",
+   "team": "CAR",
+   "position": "RB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 1,
+     "slot": 11
+    },
+    {
+     "unit": "Special Teams",
+     "position": "KR",
+     "rank": 4,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "Hubbard (hamstring) remains on track for Week 1, according to Steve Reed of the Associated Press.",
+   "date": "2026-08-24T16:16Z"
+  },
+  {
+   "name": "Haynes King",
+   "team": "CAR",
+   "position": "QB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "QB",
+     "rank": 3,
+     "slot": 9
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "King (hamstring) will not play in Friday's preseason finale against the Texans, Mike Kaye of ESPN.com reports.",
+   "date": "2026-08-24T21:24Z"
+  },
+  {
+   "name": "Xavier Legette",
+   "team": "CAR",
+   "position": "WR",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 3,
+     "slot": 8
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ankle",
+   "details": "Legette (ankle) will remain in a walking boot on his foot until Thursday, Steve Reed of the Associated Press reports.",
+   "date": "2026-08-24T16:42Z"
+  },
+  {
+   "name": "Taylor Moton",
+   "team": "CAR",
+   "position": "OT",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RT",
+     "rank": 1,
+     "slot": 7
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Illness",
+   "details": "The Panthers announced Tuesday that Moton (illness) will be placed on the non-football injury list due to a blood clot, and that he will miss the start of the regular season, Mike Kaye of The Charlotte Observer reports.",
+   "date": "2026-07-21T18:02Z"
+  },
+  {
+   "name": "Jaelan Phillips",
+   "team": "CAR",
+   "position": "LB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "SLB",
+     "rank": 1,
+     "slot": 7
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Arm",
+   "details": "Phillips (arm) will not play in Friday night's preseason game against the Jaguars, Darin Gantt of the Panthers' official site reports.",
+   "date": "2026-08-21T22:37Z"
+  },
+  {
+   "name": "Nic Scourton",
+   "team": "CAR",
+   "position": "LB",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "WLB",
+     "rank": 5,
+     "slot": 4
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee - ACL",
+   "details": "The Panthers placed Scourton (knee) on injured reserve Friday.",
+   "date": "2026-07-24T19:05Z"
+  },
+  {
+   "name": "Tershawn Wharton",
+   "team": "CAR",
+   "position": "DT",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RDE",
+     "rank": 1,
+     "slot": 3
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Neck",
+   "details": "Wharton (neck) still does not have a clear return timeline, Steve Reed of the Associated Press reports.",
+   "date": "2026-08-09T18:15Z"
+  },
+  {
+   "name": "Tyson Bagent",
+   "team": "CHI",
+   "position": "QB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "QB",
+     "rank": 2,
+     "slot": 9
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "Bagent is still dealing with a hamstring injury and did not join the team on its trip to Cincinnati for a preseason game this Saturday, Courtney Cronin of ESPN.com reports.",
+   "date": "2026-08-20T23:22Z"
+  },
+  {
+   "name": "Beanie Bishop Jr.",
+   "team": "CHI",
+   "position": "CB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "NB",
+     "rank": 3,
+     "slot": 12
+    }
+   ],
+   "status": "Suspension",
+   "injury_type": "Suspension",
+   "details": "The Bears signed Bishop (suspension) to a contract Sunday.",
+   "date": "2026-08-09T21:05Z"
+  },
+  {
+   "name": "Coby Bryant",
+   "team": "CHI",
+   "position": "S",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "FS",
+     "rank": 5,
+     "slot": 10
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Knee",
+   "details": "out",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Luther Burden III",
+   "team": "CHI",
+   "position": "WR",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 2,
+     "slot": 2
+    },
+    {
+     "unit": "Special Teams",
+     "position": "KR",
+     "rank": 5,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Groin",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Keyshaun Elliott",
+   "team": "CHI",
+   "position": "LB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "MLB",
+     "rank": 3,
+     "slot": 6
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Undisclosed",
+   "details": "Elliott (undisclosed) was placed on the Bears' active/PUP list Saturday, Adam Hoge of AllCHGO.com reports.",
+   "date": "2026-07-26T14:05Z"
+  },
+  {
+   "name": "Dallis Flowers",
+   "team": "CHI",
+   "position": "CB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "RCB",
+     "rank": 4,
+     "slot": 11
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Leg",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Jonathan Garvin",
+   "team": "CHI",
+   "position": "DE",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "RDE",
+     "rank": 5,
+     "slot": 4
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Kyler Gordon",
+   "team": "CHI",
+   "position": "CB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "NB",
+     "rank": 1,
+     "slot": 12
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Calf",
+   "details": "Bears coach Ben Johnson said Saturday that Gordon's timeline to return to practice from his calf injury is \"unknown,\" Courtney Cronin of ESPN.com reports.",
+   "date": "2026-08-15T22:47Z"
+  },
+  {
+   "name": "Elijah Hicks",
+   "team": "CHI",
+   "position": "S",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "SS",
+     "rank": 2,
+     "slot": 9
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Shin",
+   "details": "The Bears placed Hicks on the active/PUP list due to a shin injury, Brad Biggs of the Chicago Tribune reports.",
+   "date": "2026-07-28T23:32Z"
+  },
+  {
+   "name": "Ruben Hyppolite II",
+   "team": "CHI",
+   "position": "LB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "WLB",
+     "rank": 2,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Shoulder",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Nikola Kalinic",
+   "team": "CHI",
+   "position": "TE",
+   "rank": 7,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 7,
+     "slot": 10
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Kyle Monangai",
+   "team": "CHI",
+   "position": "RB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 2,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "Monangai (knee) is considered week-to-week, Adam Jahns of AllCHGO.com reports.",
+   "date": "2026-08-18T16:53Z"
+  },
+  {
+   "name": "Nephi Sewell",
+   "team": "CHI",
+   "position": "LB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "WLB",
+     "rank": 3,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Concussion",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Noah Sewell",
+   "team": "CHI",
+   "position": "LB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "MLB",
+     "rank": 2,
+     "slot": 6
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Achilles",
+   "details": "Chicago placed Sewell (Achilles) on the active/PUP list Saturday, Adam Hoge of AllCHGO.com reports.",
+   "date": "2026-07-26T00:40Z"
+  },
+  {
+   "name": "Tyrique Stevenson",
+   "team": "CHI",
+   "position": "CB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "RCB",
+     "rank": 1,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "Stevenson (undisclosed) returned to practice Thursday following a week-long absence, Brad Biggs of the Chicago Tribune reports.",
+   "date": "2026-08-20T23:42Z"
+  },
+  {
+   "name": "Shemar Turner",
+   "team": "CHI",
+   "position": "DT",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "RDT",
+     "rank": 2,
+     "slot": 3
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Knee - ACL",
+   "details": "The Bears placed Turner (knee) on the active/PUP list Saturday, Adam Hoge of AllCHGO.com reports.",
+   "date": "2026-07-26T14:15Z"
+  },
+  {
+   "name": "Xavier Woods",
+   "team": "CHI",
+   "position": "S",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "FS",
+     "rank": 2,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Groin",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Bryan Cook",
+   "team": "CIN",
+   "position": "S",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "FS",
+     "rank": 1,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Dax Hill",
+   "team": "CIN",
+   "position": "CB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LCB",
+     "rank": 1,
+     "slot": 8
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "McKinnley Jackson",
+   "team": "CIN",
+   "position": "DT",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LDT",
+     "rank": 3,
+     "slot": 2
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ankle",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Myles Murphy",
+   "team": "CIN",
+   "position": "DE",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "RDE",
+     "rank": 1,
+     "slot": 4
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Shemar Stewart",
+   "team": "CIN",
+   "position": "DE",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LDE",
+     "rank": 2,
+     "slot": 1
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "Stewart will miss several weeks due to a hyperextended knee, head coach Zac Taylor revealed Thursday, Charlie Goldsmith of FOX19 Cincinnati reports.",
+   "date": "2026-07-30T16:03Z"
+  },
+  {
+   "name": "Brenden Bates",
+   "team": "CLE",
+   "position": "TE",
+   "rank": 8,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 8,
+     "slot": 10
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "Bates (undisclosed) reverted to the Browns' injured reserve list Tuesday, Aaron Wilson of KPRC 2 Houston reports.",
+   "date": "2026-08-18T23:38Z"
+  },
+  {
+   "name": "Parker Brailsford",
+   "team": "CLE",
+   "position": "C",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "C",
+     "rank": 2,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hand",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Michael Coats Jr.",
+   "team": "CLE",
+   "position": "CB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "RCB",
+     "rank": 4,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ankle",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Maliek Collins",
+   "team": "CLE",
+   "position": "DT",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "RDT",
+     "rank": 1,
+     "slot": 3
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Quadriceps",
+   "details": "questionable",
+   "date": "2026-08-24T14:49Z"
+  },
+  {
+   "name": "Nate Evans",
+   "team": "CLE",
+   "position": "CB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LCB",
+     "rank": 2,
+     "slot": 8
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Quadriceps",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Kendrick Green",
+   "team": "CLE",
+   "position": "G",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "LG",
+     "rank": 3,
+     "slot": 4
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Quinshon Judkins",
+   "team": "CLE",
+   "position": "RB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 1,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "Judkins (undisclosed) returned to practice Monday, Daniel Oyefusi of ESPN.com reports.",
+   "date": "2026-08-24T17:42Z"
+  },
+  {
+   "name": "Damarri Mathis",
+   "team": "CLE",
+   "position": "CB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LCB",
+     "rank": 4,
+     "slot": 8
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Jeremiah Owusu-Koramoah",
+   "team": "CLE",
+   "position": "LB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "WLB",
+     "rank": 3,
+     "slot": 5
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Neck",
+   "details": "The Browns placed Owusu-Koramoah on the reserve/PUP list Friday.",
+   "date": "2026-05-08T18:04Z"
+  },
+  {
+   "name": "Joe Royer",
+   "team": "CLE",
+   "position": "TE",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 4,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Personal",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Carsen Ryan",
+   "team": "CLE",
+   "position": "TE",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 3,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Foot",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Carson Schwesinger",
+   "team": "CLE",
+   "position": "LB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "MLB",
+     "rank": 1,
+     "slot": 6
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "Schwesinger (undisclosed) returned to practice Monday as a limited participant, Scott Petrak of the Elyria Chronicle-Telegram reports.",
+   "date": "2026-08-24T21:47Z"
+  },
+  {
+   "name": "Jack Stoll",
+   "team": "CLE",
+   "position": "TE",
+   "rank": 7,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 7,
+     "slot": 10
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "The Browns placed Stoll (undisclosed) on injured reserve Thursday.",
+   "date": "2026-08-20T23:56Z"
+  },
+  {
+   "name": "Jamari Thrash",
+   "team": "CLE",
+   "position": "WR",
+   "rank": 12,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 12,
+     "slot": 8
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Cedric Tillman",
+   "team": "CLE",
+   "position": "WR",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 5,
+     "slot": 2
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "Tillman (undisclosed) is not expected to play in Saturday's preseason game against the Bills, Mary Kay Cabot of The Cleveland Plain Dealer reports.",
+   "date": "2026-08-22T15:41Z"
+  },
+  {
+   "name": "Alex Wright",
+   "team": "CLE",
+   "position": "DE",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LDE",
+     "rank": 5,
+     "slot": 1
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Achilles",
+   "details": "The Browns placed Wright on injured reserve Sunday due to a ruptured Achilles, Adam Schefter of ESPN reports.",
+   "date": "2026-08-23T18:39Z"
+  },
+  {
+   "name": "Jonathan Bullard",
+   "team": "DAL",
+   "position": "DT",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "NT",
+     "rank": 2,
+     "slot": 2
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Zion Childress",
+   "team": "DAL",
+   "position": "CB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "SS",
+     "rank": 2,
+     "slot": 9
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "Childress (hamstring) returned to practice as a limited participant Thursday, Calvin Watkins of The Dallas Morning News reports.",
+   "date": "2026-08-21T01:20Z"
+  },
+  {
+   "name": "Princeton Fant",
+   "team": "DAL",
+   "position": "TE",
+   "rank": 8,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 8,
+     "slot": 10
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee - ACL + MCL",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Tyler Guyton",
+   "team": "DAL",
+   "position": "OT",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "LT",
+     "rank": 1,
+     "slot": 3
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Elbow",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Matt Hennessy",
+   "team": "DAL",
+   "position": "C",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "C",
+     "rank": 4,
+     "slot": 5
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Neck",
+   "details": "The Cowboys placed Hennessy (neck) on the reserve/injured list Thursday.",
+   "date": "2026-06-18T21:45Z"
+  },
+  {
+   "name": "Phil Mafah",
+   "team": "DAL",
+   "position": "RB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 3,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Chest",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Michael Trigg",
+   "team": "DAL",
+   "position": "TE",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 4,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Toe",
+   "details": "Trigg (toe) did not practice Thursday, Tommy Yarrish of the Cowboys' official site reports.",
+   "date": "2026-08-21T00:26Z"
+  },
+  {
+   "name": "Julius Wood",
+   "team": "DAL",
+   "position": "S",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "FS",
+     "rank": 4,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Concussion",
+   "details": "Wood has entered the league's concussion protocol and has been ruled out for the rest of Saturday's preseason game against the Cardinals, Patrik Walker of the Cowboys' official site reports.",
+   "date": "2026-08-23T04:26Z"
+  },
+  {
+   "name": "Levelle Bailey",
+   "team": "DEN",
+   "position": "LB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RILB",
+     "rank": 4,
+     "slot": 6
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Leg",
+   "details": "Bailey (leg) reverted to the Broncos' injured-reserve list Friday, Parker Gabriel of The Denver Post reports.",
+   "date": "2026-08-22T00:29Z"
+  },
+  {
+   "name": "Michael Deiter",
+   "team": "DEN",
+   "position": "C",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "C",
+     "rank": 3,
+     "slot": 5
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Quadriceps",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Nick Gargiulo",
+   "team": "DEN",
+   "position": "G",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "LG",
+     "rank": 5,
+     "slot": 4
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Knee - ACL",
+   "details": "Gargiulo (knee) is likely to begin the regular season on the reserve/PUP list, Chris Tomasson of The Denver Gazette reports.",
+   "date": "2026-07-28T00:16Z"
+  },
+  {
+   "name": "Matt Henningsen",
+   "team": "DEN",
+   "position": "DE",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "LDE",
+     "rank": 4,
+     "slot": 1
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Achilles",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Caleb Lohner",
+   "team": "DEN",
+   "position": "TE",
+   "rank": 6,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 6,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Lower Body",
+   "details": "Lohner (lower body) does not yet have a return timeline, Luca Evans of The Denver Post reports.",
+   "date": "2026-08-03T23:17Z"
+  },
+  {
+   "name": "Riley Moss",
+   "team": "DEN",
+   "position": "CB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RCB",
+     "rank": 1,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ribs",
+   "details": "Moss (ribs) is questionable to return to Friday's preseason contest versus the Packers, Zac Stevens of TheDNVR.com reports.",
+   "date": "2026-08-22T01:40Z"
+  },
+  {
+   "name": "Luke Wattenberg",
+   "team": "DEN",
+   "position": "C",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "C",
+     "rank": 1,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Raheem Blackshear",
+   "team": "DET",
+   "position": "RB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "PR",
+     "rank": 3,
+     "slot": 4
+    },
+    {
+     "unit": "Special Teams",
+     "position": "KR",
+     "rank": 5,
+     "slot": 5
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 8,
+     "slot": 11
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-24T21:08Z"
+  },
+  {
+   "name": "Brian Branch",
+   "team": "DET",
+   "position": "S",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "SS",
+     "rank": 1,
+     "slot": 9
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Achilles",
+   "details": "Head coach Brian Campbell told reporters Tuesday that Branch (Achilles) is coming along in his rehab and could return to practice in late August or early September, Colton Pouncy of The Athletic reports.",
+   "date": "2026-08-11T21:14Z"
+  },
+  {
+   "name": "Kerby Joseph",
+   "team": "DET",
+   "position": "S",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "FS",
+     "rank": 1,
+     "slot": 10
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Knee",
+   "details": "Head coach Dan Campbell told reporters Tuesday that Joseph (knee/personal) could be back on the field with the Lions early on in the upcoming regular season, Ian Rapoport of NFL Network reports.",
+   "date": "2026-08-11T21:09Z"
+  },
+  {
+   "name": "Sam LaPorta",
+   "team": "DET",
+   "position": "TE",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 1,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hip",
+   "details": "LaPorta is dealing with a hip injury, and head coach Dan Campbell wouldn't commit Thursday to the tight end being available for Week 1 against the Saints, Tim Twentyman of the Lions' official site reports.",
+   "date": "2026-08-20T16:35Z"
+  },
+  {
+   "name": "Kendrick Law",
+   "team": "DET",
+   "position": "WR",
+   "rank": 12,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 12,
+     "slot": 8
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee - ACL",
+   "details": "The Lions placed Law (knee) on the reserve/injured list Wednesday.",
+   "date": "2026-06-17T20:34Z"
+  },
+  {
+   "name": "Giovanni Manu",
+   "team": "DET",
+   "position": "OT",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "LT",
+     "rank": 2,
+     "slot": 3
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Knee",
+   "details": "The Lions placed Manu (knee) on the active/non-football injury list Wednesday.",
+   "date": "2026-07-30T00:39Z"
+  },
+  {
+   "name": "Cade Mays",
+   "team": "DET",
+   "position": "C",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "C",
+     "rank": 4,
+     "slot": 5
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Wrist",
+   "details": "out",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Derrick Moore",
+   "team": "DET",
+   "position": "DE",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "RDE",
+     "rank": 2,
+     "slot": 4
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Groin",
+   "details": "The Lions hope Moore (groin) can return within 7-10 days, Richard Silva of The Detroit News reports.",
+   "date": "2026-08-04T00:04Z"
+  },
+  {
+   "name": "Michael Niese",
+   "team": "DET",
+   "position": "G",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "C",
+     "rank": 3,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Leg",
+   "details": "Niese (leg) was spotted leaving the Lions' locker room in crutches after sustaining an injury in Saturday's preseason game against the Commanders, Eric Woodyard of ESPN.com reports.",
+   "date": "2026-08-22T19:58Z"
+  },
+  {
+   "name": "Isiah Pacheco",
+   "team": "DET",
+   "position": "RB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 2,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee - MCL",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Ennis Rakestraw Jr.",
+   "team": "DET",
+   "position": "CB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "NB",
+     "rank": 3,
+     "slot": 12
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Lower Leg",
+   "details": "Rakestraw didn't finish practice Thursday due to an apparent leg injury, Colton Pouncy of The Athletic reports.",
+   "date": "2026-08-21T02:11Z"
+  },
+  {
+   "name": "D.J. Reed",
+   "team": "DET",
+   "position": "CB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LCB",
+     "rank": 1,
+     "slot": 8
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Groin",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Kye Robichaux",
+   "team": "DET",
+   "position": "RB",
+   "rank": 9,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 9,
+     "slot": 11
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Foot",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Malcolm Rodriguez",
+   "team": "DET",
+   "position": "LB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "SLB",
+     "rank": 1,
+     "slot": 7
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ankle",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Jimmy Rolder",
+   "team": "DET",
+   "position": "LB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "SLB",
+     "rank": 2,
+     "slot": 7
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "Coach Dan Campbell said this week that Rolder (hamstring) could begin practicing pretty early in the season, Nolan Bianchi of The Detroit News reports.",
+   "date": "2026-08-21T01:55Z"
+  },
+  {
+   "name": "Jabari Small",
+   "team": "DET",
+   "position": "RB",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 5,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Concussion",
+   "details": "Williams suffered a concussion during Detroit's preseason loss to the Commanders on Saturday, Justin Rogers of DetroitFootball.net reports.",
+   "date": "2026-08-22T19:56Z"
+  },
+  {
+   "name": "Payton Turner",
+   "team": "DET",
+   "position": "DE",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LDE",
+     "rank": 4,
+     "slot": 1
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Back",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Sione Vaki",
+   "team": "DET",
+   "position": "RB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 3,
+     "slot": 11
+    },
+    {
+     "unit": "Special Teams",
+     "position": "KR",
+     "rank": 4,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Back",
+   "details": "Vaki (back) didn't play in Detroit's preseason loss to the Commanders on Saturday, Justin Rogers of DetroitFootball.net reports.",
+   "date": "2026-08-22T19:49Z"
+  },
+  {
+   "name": "Cedrick Wilson Jr.",
+   "team": "DET",
+   "position": "WR",
+   "rank": 11,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 11,
+     "slot": 2
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee",
+   "details": "ir",
+   "date": "2026-08-24T21:09Z"
+  },
+  {
+   "name": "Mekhi Wingo",
+   "team": "DET",
+   "position": "DT",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LDT",
+     "rank": 3,
+     "slot": 2
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Head",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Johnathan Baldwin II",
+   "team": "GB",
+   "position": "S",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "FS",
+     "rank": 4,
+     "slot": 10
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Warren Brinson",
+   "team": "GB",
+   "position": "DT",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RDE",
+     "rank": 2,
+     "slot": 3
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Calf",
+   "details": "questionable",
+   "date": "2026-08-24T14:54Z"
+  },
+  {
+   "name": "Javon Bullard",
+   "team": "GB",
+   "position": "S",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "NB",
+     "rank": 1,
+     "slot": 12
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Foot",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Dani Dennis-Sutton",
+   "team": "GB",
+   "position": "DE",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "WLB",
+     "rank": 3,
+     "slot": 4
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Illness",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Josh Jacobs",
+   "team": "GB",
+   "position": "RB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 1,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Groin",
+   "details": "Packers head coach Matt LaFleur said that Jacobs (groin) is expected to go through limited team work during practice Monday, Rob Demovsky of ESPN.com reports.",
+   "date": "2026-08-24T15:29Z"
+  },
+  {
+   "name": "Marlon Jones",
+   "team": "GB",
+   "position": "CB",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RCB",
+     "rank": 5,
+     "slot": 11
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Darian Kinnard",
+   "team": "GB",
+   "position": "OT",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RT",
+     "rank": 3,
+     "slot": 7
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ankle",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Tucker Kraft",
+   "team": "GB",
+   "position": "TE",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 1,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee - ACL",
+   "details": "Kraft (knee) has been impressive in 11-on-11 drills since the Packers cleared him Sunday to take part in them at practice, Bill Huber of SI.com reports",
+   "date": "2026-08-19T20:36Z"
+  },
+  {
+   "name": "Luke Musgrave",
+   "team": "GB",
+   "position": "TE",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 2,
+     "slot": 10
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Neck",
+   "details": "Packers GM Brian Gutekunst said Wednesday that Musgrave was placed on the active/PUP list due to a neck injury and that the team is working to diagnose whether the tight end is facing a long-term issue, Tom Silverstein of the Milwaukee Journal Sentinel reports.",
+   "date": "2026-07-29T15:13Z"
+  },
+  {
+   "name": "Matt Orzech",
+   "team": "GB",
+   "position": "LS",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "LS",
+     "rank": 1,
+     "slot": 6
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Calf",
+   "details": "Orzech is currently battling a calf injury, Tom Silverstein of the Milwaukee Journal Sentinel reports.",
+   "date": "2026-07-30T00:17Z"
+  },
+  {
+   "name": "Micah Parsons",
+   "team": "GB",
+   "position": "DE",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "SLB",
+     "rank": 1,
+     "slot": 7
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Knee - ACL",
+   "details": "Parsons (knee) said Tuesday that playing Week 6 against the Cowboys is a very realistic goal, Ryan Wood of USA Today reports.",
+   "date": "2026-08-04T19:29Z"
+  },
+  {
+   "name": "Jordon Riley",
+   "team": "GB",
+   "position": "DT",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "NT",
+     "rank": 2,
+     "slot": 2
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Achilles",
+   "details": "Riley (Achilles) is not expected to be back for training camp, Weston Hodkiewicz of the Packers' official site reports.",
+   "date": "2026-08-16T21:24Z"
+  },
+  {
+   "name": "J. Michael Sturdivant",
+   "team": "GB",
+   "position": "WR",
+   "rank": 9,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 9,
+     "slot": 8
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Concussion",
+   "details": "questionable",
+   "date": "2026-08-24T14:52Z"
+  },
+  {
+   "name": "Carrington Valentine",
+   "team": "GB",
+   "position": "CB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RCB",
+     "rank": 1,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "Head coach Matt LaFleur said Tuesday that the hope is Valentine (hamstring) is cleared to return to training camp practices next week, Weston Hodkiewicz of the Packers' official site reports.",
+   "date": "2026-08-11T21:24Z"
+  },
+  {
+   "name": "British Brooks",
+   "team": "HOU",
+   "position": "RB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 4,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hand",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Tank Dell",
+   "team": "HOU",
+   "position": "WR",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "PR",
+     "rank": 2,
+     "slot": 4
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 5,
+     "slot": 2
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee - ACL + MCL",
+   "details": "Coach DeMeco Ryans said Monday that he's unsure if Dell (knee) will play during the Texans' preseason slate, Aaron Wilson of KPRC 2 Houston reports. \"With Tank, he's on his own plan,\" Ryans noted. \"Whatever that entails, geared toward what's best for Tank Dell.\"",
+   "date": "2026-08-17T17:37Z"
+  },
+  {
+   "name": "Jake Hansen",
+   "team": "HOU",
+   "position": "LB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "SLB",
+     "rank": 1,
+     "slot": 7
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ankle",
+   "details": "Hansen (ankle) is considered week-to-week, Jonathan M. Alexander of the Houston Chronicle reports.",
+   "date": "2026-08-01T19:58Z"
+  },
+  {
+   "name": "Jayden Higgins",
+   "team": "HOU",
+   "position": "WR",
+   "rank": 15,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 15,
+     "slot": 8
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee - ACL",
+   "details": "The Texans placed Higgins (knee) on injured reserve Friday, Adam Schefter of ESPN reports.",
+   "date": "2026-08-21T18:31Z"
+  },
+  {
+   "name": "Dylan Horton",
+   "team": "HOU",
+   "position": "DE",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LDE",
+     "rank": 2,
+     "slot": 1
+    }
+   ],
+   "status": "Doubtful",
+   "injury_type": "Achilles",
+   "details": "doubtful",
+   "date": "2026-08-24T21:11Z"
+  },
+  {
+   "name": "Ja'Marcus Ingram",
+   "team": "HOU",
+   "position": "CB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "SS",
+     "rank": 3,
+     "slot": 9
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Shoulder",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Brevin Jordan",
+   "team": "HOU",
+   "position": "TE",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 4,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Jawhar Jordan",
+   "team": "HOU",
+   "position": "RB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 3,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hip",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Graham Mertz",
+   "team": "HOU",
+   "position": "QB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "QB",
+     "rank": 4,
+     "slot": 9
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee - ACL",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Jaylin Noel",
+   "team": "HOU",
+   "position": "WR",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "PR",
+     "rank": 1,
+     "slot": 4
+    },
+    {
+     "unit": "Special Teams",
+     "position": "KR",
+     "rank": 1,
+     "slot": 5
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 3,
+     "slot": 8
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "With Jayden Higgins having reportedly suffered a torn ACL, Noel (hamstring/finger) is a candidate to see added work in Houston's offense this coming season, DJ Bien-Aime of ESPN reports.",
+   "date": "2026-08-19T17:46Z"
+  },
+  {
+   "name": "K.C. Ossai",
+   "team": "HOU",
+   "position": "LB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "MLB",
+     "rank": 4,
+     "slot": 6
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "The Texans placed Ossai (undisclosed) on injured reserve Saturday.",
+   "date": "2026-08-22T16:30Z"
+  },
+  {
+   "name": "Josh Pitsenberger",
+   "team": "HOU",
+   "position": "RB",
+   "rank": 8,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 8,
+     "slot": 11
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Ankle",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Dominique Robinson",
+   "team": "HOU",
+   "position": "DE",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "RDE",
+     "rank": 3,
+     "slot": 4
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Calf",
+   "details": "Robinson (calf) is considered day-to-day as of Friday, Aaron Wilson of KPRC 2 Houston reports.",
+   "date": "2026-08-22T00:25Z"
+  },
+  {
+   "name": "E.J. Speed",
+   "team": "HOU",
+   "position": "LB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "SLB",
+     "rank": 4,
+     "slot": 7
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Quadriceps",
+   "details": "Speed will miss the entire 2026 season due to a torn quadriceps tendon, Aaron Wilson of KPRC 2 Houston reports.",
+   "date": "2026-08-23T18:18Z"
+  },
+  {
+   "name": "M.J. Stewart",
+   "team": "HOU",
+   "position": "S",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "SS",
+     "rank": 2,
+     "slot": 9
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Quadriceps",
+   "details": "Texans GM Nick Caserio said Wednesday that Stewart (quadriceps) could return during training camp, Aaron Wilson of KPRC 2 Houston reports.",
+   "date": "2026-07-29T18:31Z"
+  },
+  {
+   "name": "Noah Whittington",
+   "team": "HOU",
+   "position": "RB",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 5,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ankle",
+   "details": "Whittington (ankle) is regarded as day-to-day as of Friday, Aaron Wilson of KPRC 2 Houston reports.",
+   "date": "2026-08-22T00:05Z"
+  },
+  {
+   "name": "Wade Woodaz",
+   "team": "HOU",
+   "position": "LB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "MLB",
+     "rank": 2,
+     "slot": 6
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Thumb",
+   "details": "Woodaz is scheduled to undergo surgery Monday to repair a broken thumb, Aaron Wilson of KPRC 2 Houston reports.",
+   "date": "2026-08-23T18:53Z"
+  },
+  {
+   "name": "Sauce Gardner",
+   "team": "IND",
+   "position": "CB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LCB",
+     "rank": 1,
+     "slot": 8
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Illness",
+   "details": "Gardner (calf) missed practice Tuesday due to an illness, James Boyd of The Athletic reports.",
+   "date": "2026-08-04T17:11Z"
+  },
+  {
+   "name": "DJ Giddens",
+   "team": "IND",
+   "position": "RB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 2,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "Giddens (hamstring) participated in Wednesday's practice, Nathan Brown of The Indianapolis Star reports.",
+   "date": "2026-08-19T23:12Z"
+  },
+  {
+   "name": "Anthony Gould",
+   "team": "IND",
+   "position": "WR",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "PR",
+     "rank": 1,
+     "slot": 4
+    },
+    {
+     "unit": "Special Teams",
+     "position": "KR",
+     "rank": 1,
+     "slot": 5
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 6,
+     "slot": 8
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Groin",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Will Mallory",
+   "team": "IND",
+   "position": "TE",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 4,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Thumb",
+   "details": "Mallory did not play in the Colts' 34-6 preseason loss to the Falcons on Saturday due to a thumb injury, Joel A. Erickson of The Indianapolis Star reports.",
+   "date": "2026-08-23T03:00Z"
+  },
+  {
+   "name": "Sean McKeon",
+   "team": "IND",
+   "position": "TE",
+   "rank": null,
+   "depth": [],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Cameron Mitchell",
+   "team": "IND",
+   "position": "CB",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "RCB",
+     "rank": 5,
+     "slot": 11
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Alec Pierce",
+   "team": "IND",
+   "position": "WR",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 1,
+     "slot": 1
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Ankle",
+   "details": "Coach Shane Steichen told Kevin Bowen of 107.5 The Fan Indianapolis on Wednesday that Pierce (ankle) is \"in a great spot right now. ... Hopefully, we will have him back soon.\"",
+   "date": "2026-08-19T22:16Z"
+  },
+  {
+   "name": "Cam Taylor-Britt",
+   "team": "IND",
+   "position": "CB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "RCB",
+     "rank": 2,
+     "slot": 11
+    }
+   ],
+   "status": "Suspension",
+   "injury_type": "Suspension",
+   "details": "reserve-sus",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Carson Towt",
+   "team": "IND",
+   "position": "TE",
+   "rank": 8,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 8,
+     "slot": 10
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Charvarius Ward",
+   "team": "IND",
+   "position": "CB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "RCB",
+     "rank": 1,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Back",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Tyler Warren",
+   "team": "IND",
+   "position": "TE",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 1,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Groin",
+   "details": "Warren (groin) is expected to miss about a week, but his status for Week 1 against the Ravens isn't in any danger, Ian Rapoport of ESPN and NFL Network reports.",
+   "date": "2026-08-20T14:46Z"
+  },
+  {
+   "name": "LeQuint Allen Jr.",
+   "team": "JAX",
+   "position": "RB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "KR",
+     "rank": 2,
+     "slot": 5
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 3,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Jared Bartlett",
+   "team": "JAX",
+   "position": "LB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "SLB",
+     "rank": 4,
+     "slot": 7
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Leg",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Garrett DiGiorgio",
+   "team": "JAX",
+   "position": "OT",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "LG",
+     "rank": 5,
+     "slot": 4
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Parker Hughes",
+   "team": "JAX",
+   "position": "LB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "MLB",
+     "rank": 4,
+     "slot": 6
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Jack Kiser",
+   "team": "JAX",
+   "position": "LB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "SLB",
+     "rank": 1,
+     "slot": 7
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "Kiser (knee) was not present during Thursday's practice, Ryan O'Halloran of The Florida Times-Union reports.",
+   "date": "2026-07-30T22:59Z"
+  },
+  {
+   "name": "Devon Marshall",
+   "team": "JAX",
+   "position": "CB",
+   "rank": null,
+   "depth": [],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "questionable",
+   "date": "2026-08-23T21:09Z"
+  },
+  {
+   "name": "Patrick Mekari",
+   "team": "JAX",
+   "position": "G",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RG",
+     "rank": 2,
+     "slot": 6
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Back",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Jakobi Meyers",
+   "team": "JAX",
+   "position": "WR",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 3,
+     "slot": 8
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hand",
+   "details": "Head coach Liam Coen said after Friday's 34-17 preseason loss to the Panthers that Meyers jammed his right hand during Wednesday's joint practice with Carolina, Juston Lewis of The Florida Times-Union reports.",
+   "date": "2026-08-22T03:01Z"
+  },
+  {
+   "name": "Wyatt Milum",
+   "team": "JAX",
+   "position": "G",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RG",
+     "rank": 4,
+     "slot": 6
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Parker Washington",
+   "team": "JAX",
+   "position": "WR",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "PR",
+     "rank": 1,
+     "slot": 4
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 2,
+     "slot": 2
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "Washington (undisclosed) was spotted at Sunday's walkthrough, Ryan O'Halloran of The Florida Times-Union reports.",
+   "date": "2026-08-23T13:34Z"
+  },
+  {
+   "name": "Jeff Caldwell",
+   "team": "KC",
+   "position": "WR",
+   "rank": null,
+   "depth": [],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "Caldwell suffered a hyperextended left knee in Wednesday's practice, Matt Derrick of ChiefsDigest.com reports.",
+   "date": "2026-08-21T00:00Z"
+  },
+  {
+   "name": "Ethan Downs",
+   "team": "KC",
+   "position": "LB",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LDE",
+     "rank": 5,
+     "slot": 1
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee - ACL",
+   "details": "The Chiefs placed (Downs) knee on injured reserve Tuesday, Matt Derrick of ChiefsDigest.com reports.",
+   "date": "2026-07-29T00:21Z"
+  },
+  {
+   "name": "Ashton Gillotte",
+   "team": "KC",
+   "position": "DE",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LDE",
+     "rank": 2,
+     "slot": 1
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Foot",
+   "details": "Gillotte has a ruptured plantar fascia, but the injury is not considered serious, Matt Derrick of ChiefsDigest.com reports.",
+   "date": "2026-08-21T01:43Z"
+  },
+  {
+   "name": "Alohi Gilman",
+   "team": "KC",
+   "position": "S",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "FS",
+     "rank": 1,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Back",
+   "details": "Gilman has been ruled out for the rest of Saturday's preseason game against the Buccaneers due to a back injury.",
+   "date": "2026-08-22T23:54Z"
+  },
+  {
+   "name": "Chukwuebuka Godrick",
+   "team": "KC",
+   "position": "OT",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RT",
+     "rank": 3,
+     "slot": 7
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ankle",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "John Michael Gyllenborg",
+   "team": "KC",
+   "position": "TE",
+   "rank": 7,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 7,
+     "slot": 10
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee",
+   "details": "The Chiefs placed Gyllenborg (knee) on injured reserve Tuesday, Matt Derrick of ChiefsDigest.com reports.",
+   "date": "2026-07-28T21:54Z"
+  },
+  {
+   "name": "Kader Kohou",
+   "team": "KC",
+   "position": "CB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "NB",
+     "rank": 1,
+     "slot": 12
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Patrick Mahomes",
+   "team": "KC",
+   "position": "QB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "QB",
+     "rank": 1,
+     "slot": 9
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee - ACL",
+   "details": "Mahomes (knee) said during Saturday's preseason game at Tampa Bay that he's \"extremely confident\" he'll be available Week 1 against the Broncos on Monday, Sept. 14, Sam McDowell of The Kansas City Star reports.",
+   "date": "2026-08-23T01:37Z"
+  },
+  {
+   "name": "Omarr Norman-Lott",
+   "team": "KC",
+   "position": "DT",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "RDT",
+     "rank": 2,
+     "slot": 3
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Knee - ACL",
+   "details": "The Chiefs placed Norman-Lott (knee) on the active/PUP list Saturday.",
+   "date": "2026-07-25T19:36Z"
+  },
+  {
+   "name": "Trey Smith",
+   "team": "KC",
+   "position": "G",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RG",
+     "rank": 1,
+     "slot": 6
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hip",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Tyreke Smith",
+   "team": "KC",
+   "position": "DE",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "RDE",
+     "rank": 5,
+     "slot": 4
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "Smith has been ruled out for the rest of Saturday's game against the Buccaneers due to a hamstring injury, Pete Sweeney of The Kansas City Star reports.",
+   "date": "2026-08-23T01:44Z"
+  },
+  {
+   "name": "L'Jarius Sneed",
+   "team": "KC",
+   "position": "CB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LCB",
+     "rank": 1,
+     "slot": 8
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Drue Tranquill",
+   "team": "KC",
+   "position": "LB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "WLB",
+     "rank": 1,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Back",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Matt Waletzko",
+   "team": "KC",
+   "position": "OT",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RG",
+     "rank": 4,
+     "slot": 6
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "Waletzko (undisclosed) reverted from waivers to Kansas City's injured reserve list Friday, Aaron Wilson of KPRC 2 Houston reports.",
+   "date": "2026-08-22T00:32Z"
+  },
+  {
+   "name": "Xavier Worthy",
+   "team": "KC",
+   "position": "WR",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 2,
+     "slot": 2
+    },
+    {
+     "unit": "Special Teams",
+     "position": "KR",
+     "rank": 3,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Shoulder",
+   "details": "Worthy (shoulder) participated in 7-on-7 drills Monday, Pete Sweeney of The Kansas City Star reports.",
+   "date": "2026-08-17T17:00Z"
+  },
+  {
+   "name": "Chigozie Anusiem",
+   "team": "LV",
+   "position": "CB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RCB",
+     "rank": 3,
+     "slot": 11
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee",
+   "details": "The Raiders placed Anusiem (knee) on injured reserve Saturday, Adam Schefter of ESPN reports.",
+   "date": "2026-08-22T20:31Z"
+  },
+  {
+   "name": "Chris Collier",
+   "team": "LV",
+   "position": "RB",
+   "rank": 6,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 6,
+     "slot": 11
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "Collier (undisclosed) reverted to injured reserve with the Raiders on Sunday, Sam Warren of The Athletic reports.",
+   "date": "2026-08-02T23:52Z"
+  },
+  {
+   "name": "Brennan Jackson",
+   "team": "LV",
+   "position": "LB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "SLB",
+     "rank": 3,
+     "slot": 7
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Ashton Jeanty",
+   "team": "LV",
+   "position": "RB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 1,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ankle",
+   "details": "Jeanty (ankle) didn't participant in practice Monday, Ryan McFadden of ESPN.com reports.",
+   "date": "2026-08-24T19:55Z"
+  },
+  {
+   "name": "Buddy Johnson",
+   "team": "LV",
+   "position": "LB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "LILB",
+     "rank": 4,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Shoulder",
+   "details": "Johnson (shoulder) is questionable to return to Thursday's preseason matchup with the Texans, Aaron Wilson of KPRC 2 Houston reports.",
+   "date": "2026-08-21T01:57Z"
+  },
+  {
+   "name": "Justin Pickett",
+   "team": "LV",
+   "position": "G",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RG",
+     "rank": 4,
+     "slot": 6
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Corey Rucker",
+   "team": "LV",
+   "position": "WR",
+   "rank": 14,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 14,
+     "slot": 2
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "Rucker (undisclosed) was placed on the reserve/injured list Wednesday.",
+   "date": "2026-06-10T20:52Z"
+  },
+  {
+   "name": "Justin Shorter",
+   "team": "LV",
+   "position": "WR",
+   "rank": 13,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 13,
+     "slot": 1
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "Shorter (undisclosed) was placed on the reserve/injured list by the Raiders on Monday.",
+   "date": "2026-05-04T23:28Z"
+  },
+  {
+   "name": "Dont'e Thornton Jr.",
+   "team": "LV",
+   "position": "WR",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 5,
+     "slot": 2
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "Thornton (undisclosed) didn't practice Monday, Sam Warren of The Athletic reports.",
+   "date": "2026-08-24T19:49Z"
+  },
+  {
+   "name": "Tyler Biadasz",
+   "team": "LAC",
+   "position": "C",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "C",
+     "rank": 4,
+     "slot": 5
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee",
+   "details": "The Chargers placed Biadasz (knee) on injured reserve Sunday.",
+   "date": "2026-08-23T16:55Z"
+  },
+  {
+   "name": "Luke Grimm",
+   "team": "LAC",
+   "position": "WR",
+   "rank": 13,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 13,
+     "slot": 1
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "Grimm (undisclosed) reverted to the Chargers' injured-reserve list Thursday, per the NFL's transaction log.",
+   "date": "2026-08-21T00:52Z"
+  },
+  {
+   "name": "Tre' Harris",
+   "team": "LAC",
+   "position": "WR",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 3,
+     "slot": 8
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "Harris (undisclosed) will participate in Saturday's training camp practice, Alex Insdorf of BoltBeat.com reports.",
+   "date": "2026-08-22T16:36Z"
+  },
+  {
+   "name": "Quentin Johnston",
+   "team": "LAC",
+   "position": "WR",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 2,
+     "slot": 2
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Lower Body",
+   "details": "Johnston (lower body) will not participate in Saturday's training camp practice, Alex Insdorf of BoltBeat.com reports.",
+   "date": "2026-08-22T16:19Z"
+  },
+  {
+   "name": "Rashawn Slater",
+   "team": "LAC",
+   "position": "OT",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "LT",
+     "rank": 1,
+     "slot": 3
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "Slater (undisclosed) was a limited participant in Saturday's practice, Alex Insdorf of BoltBeat.com reports.",
+   "date": "2026-08-22T16:20Z"
+  },
+  {
+   "name": "Brenen Thompson",
+   "team": "LAC",
+   "position": "WR",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "PR",
+     "rank": 2,
+     "slot": 4
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 4,
+     "slot": 1
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "Thompson (undisclosed) was on the field for Sunday's training camp practice, Kris Rhim of ESPN.com reports.",
+   "date": "2026-08-23T18:46Z"
+  },
+  {
+   "name": "Isaiah World",
+   "team": "LAC",
+   "position": "OT",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "LT",
+     "rank": 5,
+     "slot": 3
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Knee",
+   "details": "The Chargers placed World (knee) on the active/non-football injury list Friday, per the NFL's transaction log.",
+   "date": "2026-07-24T23:47Z"
+  },
+  {
+   "name": "Davis Allen",
+   "team": "LAR",
+   "position": "TE",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 5,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Quadriceps",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Shaun Dolac",
+   "team": "LAR",
+   "position": "LB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RILB",
+     "rank": 2,
+     "slot": 6
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee - PCL",
+   "details": "questionable",
+   "date": "2026-02-13T00:19Z"
+  },
+  {
+   "name": "Myles Garrett",
+   "team": "LAR",
+   "position": "DE",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "SLB",
+     "rank": 1,
+     "slot": 7
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "Coach Sean McVay said Monday that Garrett may not participate in practice this week, Greg Beacham of the Associated Press reports.",
+   "date": "2026-08-17T19:31Z"
+  },
+  {
+   "name": "Alaric Jackson",
+   "team": "LAR",
+   "position": "OT",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "LT",
+     "rank": 1,
+     "slot": 3
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Illness",
+   "details": "Jackson missed practice Wednesday due to management of his blood clot issue, Stu Jackson and Zach Edwards of the Rams' official site report.",
+   "date": "2026-07-30T23:15Z"
+  },
+  {
+   "name": "Zech McPhearson",
+   "team": "LAR",
+   "position": "CB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RCB",
+     "rank": 4,
+     "slot": 11
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-24T17:06Z"
+  },
+  {
+   "name": "Puka Nacua",
+   "team": "LAR",
+   "position": "WR",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 1,
+     "slot": 1
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Groin",
+   "details": "Nacua (groin) isn't practicing Monday, Sarah Barshop of ESPN.com reports.",
+   "date": "2026-08-24T17:50Z"
+  },
+  {
+   "name": "Daniel Rickert",
+   "team": "LAR",
+   "position": "DE",
+   "rank": null,
+   "depth": [],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "Rickert (knee) won't return to the Rams' preseason matchup versus the Saints on Saturday.",
+   "date": "2026-08-22T22:48Z"
+  },
+  {
+   "name": "Keir Thomas II",
+   "team": "LAR",
+   "position": "LB",
+   "rank": 6,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "SLB",
+     "rank": 6,
+     "slot": 7
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Groin",
+   "details": "ir",
+   "date": "2026-08-24T17:06Z"
+  },
+  {
+   "name": "Keagen Trost",
+   "team": "LAR",
+   "position": "OT",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RT",
+     "rank": 2,
+     "slot": 7
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Kobie Turner",
+   "team": "LAR",
+   "position": "DE",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "LDE",
+     "rank": 1,
+     "slot": 1
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "Turner had 48 tackles (24 solo), including 7.0 sacks, and added three passes defensed, including one interception, over 17 regular-season games with the Rams.",
+   "date": "2026-02-13T23:05Z"
+  },
+  {
+   "name": "Eddie Walls III",
+   "team": "LAR",
+   "position": "LB",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "WLB",
+     "rank": 5,
+     "slot": 4
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "The Rams placed Walls (undisclosed) on their injured reserve list Thursday, Cameron DaSilva of USA Today reports.",
+   "date": "2026-06-05T01:44Z"
+  },
+  {
+   "name": "Darrell Baker Jr.",
+   "team": "MIA",
+   "position": "CB",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LCB",
+     "rank": 5,
+     "slot": 8
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Undisclosed",
+   "details": "Coach Jeff Hafley stated Tuesday that Baker (undisclosed) likely will be out until midseason, Marcel Louis-Jacques of ESPN.com reports.",
+   "date": "2026-07-28T18:30Z"
+  },
+  {
+   "name": "JuJu Brents",
+   "team": "MIA",
+   "position": "CB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "RCB",
+     "rank": 1,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "Brents (undisclosed) is trending in the right direction but did not participate in full-team drills against the Giants on Thursday, Alain Poupart of SI.com reports.",
+   "date": "2026-08-20T23:32Z"
+  },
+  {
+   "name": "Jordyn Brooks",
+   "team": "MIA",
+   "position": "LB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "WLB",
+     "rank": 1,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Storm Duck",
+   "team": "MIA",
+   "position": "CB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "RCB",
+     "rank": 4,
+     "slot": 11
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Knee",
+   "details": "Coach Jeff Hafley stated Tuesday that Duck (knee) will likely be sidelined until midseason, Marcel Louis-Jacques of ESPN.com reports.",
+   "date": "2026-07-28T18:22Z"
+  },
+  {
+   "name": "James Ester",
+   "team": "MIA",
+   "position": "G",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "LG",
+     "rank": 3,
+     "slot": 4
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "Ester (undisclosed) reverted to Miami's injured reserve Saturday, Aaron Wilson of KPRC 2 Houston reports.",
+   "date": "2026-08-22T22:24Z"
+  },
+  {
+   "name": "Clelin Ferrell",
+   "team": "MIA",
+   "position": "DE",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LDE",
+     "rank": 2,
+     "slot": 1
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Ollie Gordon II",
+   "team": "MIA",
+   "position": "RB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 3,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ribs",
+   "details": "Gordon injured his ribs during the Dolphins' 26-3 preseason loss to the Giants on Saturday, Joe Schad of The Palm Beach Post reports.",
+   "date": "2026-08-23T18:31Z"
+  },
+  {
+   "name": "Kenneth Grant",
+   "team": "MIA",
+   "position": "DT",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LDT",
+     "rank": 1,
+     "slot": 2
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Ronnie Harrison Jr.",
+   "team": "MIA",
+   "position": "LB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "WLB",
+     "rank": 2,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "Harrison is unlikely to play in the Dolphins' preseason finale against the Falcons on Friday due to a hamstring injury, Joe Schad of The Palm Beach Post reports.",
+   "date": "2026-08-23T18:55Z"
+  },
+  {
+   "name": "Lonnie Johnson Jr.",
+   "team": "MIA",
+   "position": "S",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "SS",
+     "rank": 2,
+     "slot": 9
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Leg",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Rene Konga",
+   "team": "MIA",
+   "position": "DT",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LDT",
+     "rank": 5,
+     "slot": 2
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Trey Moore",
+   "team": "MIA",
+   "position": "LB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "SLB",
+     "rank": 1,
+     "slot": 7
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ankle",
+   "details": "Moore sustained an ankle injury during the Dolphins' 26-3 preseason loss to the Giants on Saturday, C. Isaiah Smalls II of the Miami Herald reports.",
+   "date": "2026-08-23T18:27Z"
+  },
+  {
+   "name": "Ethan Robinson",
+   "team": "MIA",
+   "position": "CB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "NB",
+     "rank": 4,
+     "slot": 12
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Jamaree Salyer",
+   "team": "MIA",
+   "position": "G",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "LG",
+     "rank": 2,
+     "slot": 4
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Zach Sieler",
+   "team": "MIA",
+   "position": "DT",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "RDT",
+     "rank": 1,
+     "slot": 3
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Ben Sims",
+   "team": "MIA",
+   "position": "TE",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "FB",
+     "rank": 1,
+     "slot": 12
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Carter Warren",
+   "team": "MIA",
+   "position": "OT",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RT",
+     "rank": 5,
+     "slot": 7
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "Miami waived Warren (undisclosed) with an injury designation Monday.",
+   "date": "2026-06-16T01:46Z"
+  },
+  {
+   "name": "Jamal Adams",
+   "team": "MIN",
+   "position": "LB",
+   "rank": 6,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RILB",
+     "rank": 6,
+     "slot": 6
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Quadriceps",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Tyreek Chappell",
+   "team": "MIN",
+   "position": "CB",
+   "rank": null,
+   "depth": [],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "questionable",
+   "date": "2026-08-24T17:26Z"
+  },
+  {
+   "name": "J.J. McCarthy",
+   "team": "MIN",
+   "position": "QB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "QB",
+     "rank": 2,
+     "slot": 9
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "McCarthy (undisclosed) participated in Monday's practice, Kevin Seifert of ESPN.com reports.",
+   "date": "2026-08-24T21:23Z"
+  },
+  {
+   "name": "Taki Taimani",
+   "team": "MIN",
+   "position": "DT",
+   "rank": null,
+   "depth": [],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "questionable",
+   "date": "2026-08-24T17:26Z"
+  },
+  {
+   "name": "Jakobe Thomas",
+   "team": "MIN",
+   "position": "S",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "FS",
+     "rank": 3,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Back",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Caleb Tiernan",
+   "team": "MIN",
+   "position": "OT",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RT",
+     "rank": 2,
+     "slot": 7
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ankle",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Bryce Baringer",
+   "team": "NE",
+   "position": "P",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "P",
+     "rank": 1,
+     "slot": 2
+    },
+    {
+     "unit": "Special Teams",
+     "position": "H",
+     "rank": 1,
+     "slot": 3
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "questionable",
+   "date": "2026-08-24T13:28Z"
+  },
+  {
+   "name": "Ben Brown",
+   "team": "NE",
+   "position": "C",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "C",
+     "rank": 2,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Marcus Bryant",
+   "team": "NE",
+   "position": "OT",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RT",
+     "rank": 2,
+     "slot": 7
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ankle",
+   "details": "Bryant has been ruled out for the rest of Saturday's preseason game against the Eagles due to an ankle injury, Evan Lazar of the Patriots' official site reports.",
+   "date": "2026-08-22T23:29Z"
+  },
+  {
+   "name": "TreVeyon Henderson",
+   "team": "NE",
+   "position": "RB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 2,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Lower Leg",
+   "details": "Henderson left Monday's practice with a right lower leg issue, Mike Kadlick of Sports Illustrated reports.",
+   "date": "2026-08-24T16:42Z"
+  },
+  {
+   "name": "Julian Hill",
+   "team": "NE",
+   "position": "TE",
+   "rank": 6,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 6,
+     "slot": 10
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee",
+   "details": "The Patriots placed Hill (knee) on IR on Monday, Evan Lazar of the team's official site reports.",
+   "date": "2026-06-01T21:13Z"
+  },
+  {
+   "name": "Jimmy Kibble",
+   "team": "NE",
+   "position": "WR",
+   "rank": 12,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 12,
+     "slot": 8
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "Kibble (undisclosed) reverted to New England's injured reserve Friday.",
+   "date": "2026-07-26T22:17Z"
+  },
+  {
+   "name": "Harold Landry III",
+   "team": "NE",
+   "position": "LB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "WLB",
+     "rank": 1,
+     "slot": 4
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Undisclosed",
+   "details": "Landry (undisclosed) will begin training camp on the active/PUP list, Mike Reiss of ESPN.com reports.",
+   "date": "2026-07-21T23:08Z"
+  },
+  {
+   "name": "Lan Larison",
+   "team": "NE",
+   "position": "RB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 3,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "Larison (undisclosed) will not practice Monday, Evan Lazar of the Patriots' official site reports.",
+   "date": "2026-08-24T15:05Z"
+  },
+  {
+   "name": "Myles Montgomery",
+   "team": "NE",
+   "position": "RB",
+   "rank": 7,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 7,
+     "slot": 11
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Brenden Schooler",
+   "team": "NE",
+   "position": "S",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "FS",
+     "rank": 3,
+     "slot": 10
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Undisclosed",
+   "details": "Schooler (undisclosed) was placed on the active Non-Football Injury list Friday, Phil Perry of NBC Sports Boston reports.",
+   "date": "2026-07-24T19:43Z"
+  },
+  {
+   "name": "Jeremiah Webb",
+   "team": "NE",
+   "position": "WR",
+   "rank": 11,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 11,
+     "slot": 2
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Arm",
+   "details": "The Patriots placed Webb (arm) on injured reserve Sunday, Evan Lazar of the team's official site reports.",
+   "date": "2026-07-26T21:31Z"
+  },
+  {
+   "name": "Bryan Bresee",
+   "team": "NO",
+   "position": "DT",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RDE",
+     "rank": 5,
+     "slot": 3
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee - ACL",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Ty Chandler",
+   "team": "NO",
+   "position": "RB",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "KR",
+     "rank": 5,
+     "slot": 5
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 7,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "Chandler suffered a knee injury during Saturday's preseason game against the Rams that is feared to be serious, Nick Underhill of NewOrleans.Football reports.",
+   "date": "2026-08-24T19:39Z"
+  },
+  {
+   "name": "Audric Estime",
+   "team": "NO",
+   "position": "RB",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 5,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ankle",
+   "details": "Estime (ankle) participated in practice Monday, Ross Jackson of WWL Louisiana reports.",
+   "date": "2026-08-24T20:25Z"
+  },
+  {
+   "name": "Cameron Jordan",
+   "team": "NO",
+   "position": "DE",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "LDE",
+     "rank": 1,
+     "slot": 1
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Alvin Kamara",
+   "team": "NO",
+   "position": "RB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 2,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee - MCL",
+   "details": "Kamara (knee) is expected to be out for at least one month after sustaining an MCL sprain during Tuesday's joint practice with the Cowboys, Adam Schefter of ESPN reports.",
+   "date": "2026-08-19T13:41Z"
+  },
+  {
+   "name": "Moliki Matavao",
+   "team": "NO",
+   "position": "TE",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 4,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "Matavao was diagnosed with a knee injury following the Saints' 34-0 preseason loss to the Rams on Saturday, Matthew Paras of The New Orleans Times-Picayune reports.",
+   "date": "2026-08-23T01:37Z"
+  },
+  {
+   "name": "Bub Means",
+   "team": "NO",
+   "position": "WR",
+   "rank": 9,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 9,
+     "slot": 8
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "Means injured his hamstring during Saturday's 34-0 preseason loss to the Rams, Matthew Paras of The New Orleans Times-Picayune reports.",
+   "date": "2026-08-23T01:40Z"
+  },
+  {
+   "name": "Christen Miller",
+   "team": "NO",
+   "position": "DT",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "NT",
+     "rank": 3,
+     "slot": 2
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Shoulder",
+   "details": "Miller took part in Saturday's preseason loss to Jacksonville but exited due to a shoulder injury, Mike Triplett of NewOrleans.Football reports.",
+   "date": "2026-08-16T00:40Z"
+  },
+  {
+   "name": "Devin Neal",
+   "team": "NO",
+   "position": "RB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "KR",
+     "rank": 4,
+     "slot": 5
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 4,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "Neal sustained a hamstring injury during the Saints' 34-0 preseason loss to the Rams on Saturday, Matthew Paras of The New Orleans Times-Picayune reports.",
+   "date": "2026-08-23T01:57Z"
+  },
+  {
+   "name": "Dillon Radunz",
+   "team": "NO",
+   "position": "G",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "LG",
+     "rank": 3,
+     "slot": 4
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee - ACL",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Brock Rechsteiner",
+   "team": "NO",
+   "position": "WR",
+   "rank": 12,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 12,
+     "slot": 8
+    }
+   ],
+   "status": "Suspension",
+   "injury_type": "Suspension",
+   "details": "reserve-sus",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "John Ridgeway III",
+   "team": "NO",
+   "position": "DT",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RDE",
+     "rank": 1,
+     "slot": 3
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Foot",
+   "details": "Ridgeway exited Thursday's practice with a foot injury, Nick Underhill of NewOrleans.Football reports.",
+   "date": "2026-08-21T00:30Z"
+  },
+  {
+   "name": "Quincy Riley",
+   "team": "NO",
+   "position": "CB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RCB",
+     "rank": 1,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Groin",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Chris Rumph II",
+   "team": "NO",
+   "position": "DE",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "WLB",
+     "rank": 3,
+     "slot": 4
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ankle",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Nick Saldiveri",
+   "team": "NO",
+   "position": "OT",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "LG",
+     "rank": 4,
+     "slot": 4
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Knee",
+   "details": "New Orleans placed Saldiveri (knee) on its reserve/physically unable to perform list Tuesday.",
+   "date": "2026-05-14T00:10Z"
+  },
+  {
+   "name": "Torricelli Simpkins III",
+   "team": "NO",
+   "position": "G",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "C",
+     "rank": 2,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Concussion",
+   "details": "Simpkins has entered the league's concussion protocol following the Saints' 34-0 loss to the Rams in Saturday's preseason game, Matthew Paras of The New Orleans Times-Picayune reports.",
+   "date": "2026-08-23T03:46Z"
+  },
+  {
+   "name": "Lorenzo Styles Jr.",
+   "team": "NO",
+   "position": "S",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "NB",
+     "rank": 3,
+     "slot": 12
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Calf",
+   "details": "Styles sustained a calf injury during the Saints' 34-0 preseason loss to the Rams on Saturday, Matthew Paras of The New Orleans Times-Picayune reports.",
+   "date": "2026-08-23T03:37Z"
+  },
+  {
+   "name": "Brien Taylor",
+   "team": "NO",
+   "position": "DT",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RDE",
+     "rank": 3,
+     "slot": 3
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Neck",
+   "details": "Taylor was diagnosed with a neck injury following the Saints' 34-0 preseason loss to the Rams on Saturday, Matthew Paras of The New Orleans Times-Picayune reports.",
+   "date": "2026-08-23T03:43Z"
+  },
+  {
+   "name": "Mason Tipton",
+   "team": "NO",
+   "position": "WR",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "PR",
+     "rank": 2,
+     "slot": 4
+    },
+    {
+     "unit": "Special Teams",
+     "position": "KR",
+     "rank": 2,
+     "slot": 5
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 6,
+     "slot": 8
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Leg",
+   "details": "Coach Kellen Moore said Wednesday that Tipton is still recovering from offseason tibia surgery, Mike Triplett of NewOrleans.Football reports.",
+   "date": "2026-07-29T20:43Z"
+  },
+  {
+   "name": "Jordyn Tyson",
+   "team": "NO",
+   "position": "WR",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 2,
+     "slot": 2
+    }
+   ],
+   "status": "Doubtful",
+   "injury_type": "Hamstring",
+   "details": "doubtful",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Pete Werner",
+   "team": "NO",
+   "position": "LB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RILB",
+     "rank": 1,
+     "slot": 6
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Groin",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Rejzohn Wright",
+   "team": "NO",
+   "position": "CB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RCB",
+     "rank": 4,
+     "slot": 11
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Hip",
+   "details": "ir",
+   "date": "2026-08-24T20:28Z"
+  },
+  {
+   "name": "Paulson Adebo",
+   "team": "NYG",
+   "position": "CB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "LCB",
+     "rank": 1,
+     "slot": 8
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Anquin Barnes Jr.",
+   "team": "NYG",
+   "position": "DT",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "NT",
+     "rank": 5,
+     "slot": 2
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Jarrick Bernard-Converse",
+   "team": "NYG",
+   "position": "CB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RCB",
+     "rank": 4,
+     "slot": 11
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Braxton Berrios",
+   "team": "NYG",
+   "position": "WR",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "PR",
+     "rank": 1,
+     "slot": 4
+    },
+    {
+     "unit": "Special Teams",
+     "position": "KR",
+     "rank": 2,
+     "slot": 5
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 8,
+     "slot": 2
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "Head coach John Harbaugh told reporters that Berrios did not play in Saturday's 26-3 preseason win over the Dolphins due to a soft-tissue issue, Paul Schwartz of the New York Post reports.",
+   "date": "2026-08-23T01:47Z"
+  },
+  {
+   "name": "Thaddeus Dixon",
+   "team": "NYG",
+   "position": "CB",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "LCB",
+     "rank": 5,
+     "slot": 8
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Achilles",
+   "details": "Dixon tore his Achilles on Wednesday and was placed on injured reserve Thursday, Dan Salomone of the Giants' official site reports.",
+   "date": "2026-05-15T00:04Z"
+  },
+  {
+   "name": "Joshua Ezeudu",
+   "team": "NYG",
+   "position": "G",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "LT",
+     "rank": 3,
+     "slot": 3
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Leg",
+   "details": "questionable",
+   "date": "2026-08-23T19:07Z"
+  },
+  {
+   "name": "Colton Hood",
+   "team": "NYG",
+   "position": "CB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "LCB",
+     "rank": 2,
+     "slot": 8
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Quadriceps",
+   "details": "Hood (undisclosed) did not participate at the Giants' training camp practice Tuesday, Connor Hughes of SNY.tv reports.",
+   "date": "2026-08-18T23:09Z"
+  },
+  {
+   "name": "Jalin Hyatt",
+   "team": "NYG",
+   "position": "WR",
+   "rank": 9,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 9,
+     "slot": 8
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Leg",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "DJ James",
+   "team": "NYG",
+   "position": "CB",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RCB",
+     "rank": 5,
+     "slot": 11
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Theo Johnson",
+   "team": "NYG",
+   "position": "TE",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 2,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "Johnson left Monday's practice due to an unspecified issue, Dan Bentonof USA Today reports.",
+   "date": "2026-08-24T20:50Z"
+  },
+  {
+   "name": "Francis Mauigoa",
+   "team": "NYG",
+   "position": "OT",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RG",
+     "rank": 1,
+     "slot": 6
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Upper Body",
+   "details": "Mauigoa (upper body) had to leave Thursday's joint practice with the Dolphins due to a stinger, Dan Benton of USA Today reports.",
+   "date": "2026-08-21T02:03Z"
+  },
+  {
+   "name": "Dante Miller",
+   "team": "NYG",
+   "position": "RB",
+   "rank": 7,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 7,
+     "slot": 11
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Groin",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Malik Nabers",
+   "team": "NYG",
+   "position": "WR",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 1,
+     "slot": 1
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee - ACL",
+   "details": "Giants coach John Harbaugh said Sunday that Nabers (knee) could be out of his red non-contact jersey at some point this week, Evan Barnes of Newsday reports.",
+   "date": "2026-08-23T20:32Z"
+  },
+  {
+   "name": "Greg Newsome II",
+   "team": "NYG",
+   "position": "CB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RCB",
+     "rank": 1,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Gunner Olszewski",
+   "team": "NYG",
+   "position": "WR",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "PR",
+     "rank": 5,
+     "slot": 4
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 12,
+     "slot": 8
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Achilles",
+   "details": "Olszewski (Achilles) was placed on injured reserve by the Giants on Monday, Dan Salomone of the team's official site reports.",
+   "date": "2026-06-02T00:10Z"
+  },
+  {
+   "name": "Lucas Patrick",
+   "team": "NYG",
+   "position": "G",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "C",
+     "rank": 2,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Rico Payton",
+   "team": "NYG",
+   "position": "CB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RCB",
+     "rank": 3,
+     "slot": 11
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "Payton (undisclosed) reverted to injured reserve Wednesday, Aaron Wilson of KPRC 2 Houston reports.",
+   "date": "2026-07-08T21:21Z"
+  },
+  {
+   "name": "Dru Phillips",
+   "team": "NYG",
+   "position": "CB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "NB",
+     "rank": 1,
+     "slot": 12
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Roy Robertson-Harris",
+   "team": "NYG",
+   "position": "DT",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "LDE",
+     "rank": 4,
+     "slot": 1
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Achilles",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "John Michael Schmitz Jr.",
+   "team": "NYG",
+   "position": "C",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "C",
+     "rank": 1,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Concussion",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Mory Bamba",
+   "team": "NYJ",
+   "position": "CB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "RCB",
+     "rank": 4,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Tyler Baron",
+   "team": "NYJ",
+   "position": "DE",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "RDE",
+     "rank": 4,
+     "slot": 4
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Knee",
+   "details": "The Jets placed Baron (knee) on the active/PUP list Saturday, Ethan Greenberg of the team's official site reports. reports.",
+   "date": "2026-07-25T21:54Z"
+  },
+  {
+   "name": "Chase Curtis",
+   "team": "NYJ",
+   "position": "TE",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 5,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "Curtis (knee) is out for the remainder of Friday's preseason contest at Pittsburgh.",
+   "date": "2026-08-22T01:46Z"
+  },
+  {
+   "name": "Isaiah Davis",
+   "team": "NYJ",
+   "position": "RB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "KR",
+     "rank": 3,
+     "slot": 5
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 3,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "Davis (knee) did not play in the Jets' 17-0 preseason win over the Steelers on Friday.",
+   "date": "2026-08-22T17:24Z"
+  },
+  {
+   "name": "Breece Hall",
+   "team": "NYJ",
+   "position": "RB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 1,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Groin",
+   "details": "Hall (groin) took part in agility drills on the side at Monday's practice, Brian Costello of the New York Post reports.",
+   "date": "2026-08-24T17:11Z"
+  },
+  {
+   "name": "Kingsley Jonathan",
+   "team": "NYJ",
+   "position": "DE",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LDE",
+     "rank": 4,
+     "slot": 1
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Thigh",
+   "details": "Jonathan (thigh) reverted to the Jets' injured reserve Wednesday, Aaron Wilson of KPRC 2 Houston reports.",
+   "date": "2026-08-20T00:23Z"
+  },
+  {
+   "name": "Kobe King",
+   "team": "NYJ",
+   "position": "LB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "SLB",
+     "rank": 3,
+     "slot": 7
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "King (undisclosed) reverted from waivers to the Jets' injured reserve list Wednesday, per the NFL's transaction log.",
+   "date": "2026-06-04T01:10Z"
+  },
+  {
+   "name": "Caullin Lacy",
+   "team": "NYJ",
+   "position": "WR",
+   "rank": null,
+   "depth": [],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "The Jets waived/injured Lacy (undisclosed) on Sunday.",
+   "date": "2026-08-23T21:12Z"
+  },
+  {
+   "name": "VJ Payne",
+   "team": "NYJ",
+   "position": "S",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "FS",
+     "rank": 2,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "D'Angelo Ponds",
+   "team": "NYJ",
+   "position": "CB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "NB",
+     "rank": 2,
+     "slot": 12
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Calf",
+   "details": "Ponds (calf) is nearing a return to the field according to head coach Aaron Glenn, Eric Allen of the Jets' official site reports.",
+   "date": "2026-08-18T19:32Z"
+  },
+  {
+   "name": "Kenyon Sadiq",
+   "team": "NYJ",
+   "position": "TE",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 1,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Abdomen",
+   "details": "Coach Aaron Gleen said Monday that the Jets are targeting Week 1 for Sadiq (hernia) to return to action, Zack Rosenblatt of The Athletic reports.",
+   "date": "2026-08-24T18:44Z"
+  },
+  {
+   "name": "Sam Scott",
+   "team": "NYJ",
+   "position": "RB",
+   "rank": null,
+   "depth": [],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "The Jets waived/injured Scott (undisclosed) on Sunday.",
+   "date": "2026-08-23T21:15Z"
+  },
+  {
+   "name": "Qwan'tez Stiggers",
+   "team": "NYJ",
+   "position": "CB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "RCB",
+     "rank": 2,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Concussion",
+   "details": "Stiggers (concussion) was a limited participant in Wednesday's practice, Rich Cimini of ESPN.com reports.",
+   "date": "2026-08-19T23:56Z"
+  },
+  {
+   "name": "Nathan Voorhis",
+   "team": "NYJ",
+   "position": "LB",
+   "rank": null,
+   "depth": [],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "Voorhis (undisclosed) was waived/injured by the Jets on Sunday.",
+   "date": "2026-08-23T21:25Z"
+  },
+  {
+   "name": "Nahshon Wright",
+   "team": "NYJ",
+   "position": "CB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LCB",
+     "rank": 1,
+     "slot": 8
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hip",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Markel Bell",
+   "team": "PHI",
+   "position": "OT",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "LT",
+     "rank": 2,
+     "slot": 3
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "RT",
+     "rank": 3,
+     "slot": 7
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Thumb",
+   "details": "questionable",
+   "date": "2026-08-24T17:15Z"
+  },
+  {
+   "name": "Jakorian Bennett",
+   "team": "PHI",
+   "position": "CB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "LCB",
+     "rank": 3,
+     "slot": 8
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "Bennett (knee) did not practice Thursday, Andrew DiCecco of InsideTheBirds.com reports.",
+   "date": "2026-08-21T01:37Z"
+  },
+  {
+   "name": "Grant Calcaterra",
+   "team": "PHI",
+   "position": "TE",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 4,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Back",
+   "details": "Calcatarra (back) did not participate in Wednesday's practice, Dave Zangaro of NBC Sports Philadelphia reports.",
+   "date": "2026-08-19T22:47Z"
+  },
+  {
+   "name": "Chance Campbell",
+   "team": "PHI",
+   "position": "LB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "LILB",
+     "rank": 3,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Groin",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Tariq Castro-Fields",
+   "team": "PHI",
+   "position": "CB",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RCB",
+     "rank": 5,
+     "slot": 11
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Heel",
+   "details": "The Eagles placed Castro-Fields (heel) on injured reserve Friday.",
+   "date": "2026-08-22T00:24Z"
+  },
+  {
+   "name": "Britain Covey",
+   "team": "PHI",
+   "position": "WR",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "PR",
+     "rank": 1,
+     "slot": 4
+    },
+    {
+     "unit": "Special Teams",
+     "position": "KR",
+     "rank": 3,
+     "slot": 5
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 7,
+     "slot": 1
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Cooper DeJean",
+   "team": "PHI",
+   "position": "CB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "NB",
+     "rank": 1,
+     "slot": 12
+    },
+    {
+     "unit": "Base 3-4 D",
+     "position": "SS",
+     "rank": 2,
+     "slot": 9
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Groin",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Danny Gray",
+   "team": "PHI",
+   "position": "WR",
+   "rank": 10,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 10,
+     "slot": 1
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Concussion",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Jonathan Greenard",
+   "team": "PHI",
+   "position": "LB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "SLB",
+     "rank": 1,
+     "slot": 7
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Pectoral",
+   "details": "The Eagles are worried Greenard (pectoral) could miss the Week 1 divisional showdown with the Commanders due to injury, Mike Garafolo of NFL Network reports.",
+   "date": "2026-08-19T22:21Z"
+  },
+  {
+   "name": "Ja'Quinden Jackson",
+   "team": "PHI",
+   "position": "RB",
+   "rank": null,
+   "depth": [],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "Jackson (undisclosed) was discharged from a local New England hospital and joined his Eagles teammates for their return trip to Philadelphia following Saturday's 24-21 loss, Tim McManus of ESPN.com reports.",
+   "date": "2026-08-23T18:23Z"
+  },
+  {
+   "name": "Keyshawn James-Newby",
+   "team": "PHI",
+   "position": "LB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "WLB",
+     "rank": 3,
+     "slot": 4
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ankle",
+   "details": "James-Newby (undisclosed) was carted off the practice field during Saturday's session, Dave Zangaro of NBC Sports Philadelphia reports.",
+   "date": "2026-08-01T19:50Z"
+  },
+  {
+   "name": "Jonathan Jones",
+   "team": "PHI",
+   "position": "CB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "LCB",
+     "rank": 2,
+     "slot": 8
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Shoulder",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Tucker Large",
+   "team": "PHI",
+   "position": "S",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "SS",
+     "rank": 4,
+     "slot": 9
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Undisclosed",
+   "details": "Large reverted to Philadelphia's reserve/non-football injury list Tuesday, Aaron Wilson of KPRC 2 Houston reports.",
+   "date": "2026-05-06T04:03Z"
+  },
+  {
+   "name": "Micah Morris",
+   "team": "PHI",
+   "position": "G",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "LG",
+     "rank": 4,
+     "slot": 4
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Shoulder",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "John Ojukwu",
+   "team": "PHI",
+   "position": "OT",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "LT",
+     "rank": 4,
+     "slot": 3
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Pectoral",
+   "details": "Ojukwu (pectoral) did not participate during the Eagles' training camp practice Wednesday, Andrew DiCecco of InsideTheBirds.com reports.",
+   "date": "2026-08-20T00:01Z"
+  },
+  {
+   "name": "Eli Stowers",
+   "team": "PHI",
+   "position": "TE",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 2,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "Stowers (hamstring) won't practice Monday, Martin Frank of The Delaware News Journal reports.",
+   "date": "2026-08-24T17:00Z"
+  },
+  {
+   "name": "Shaun Wade",
+   "team": "PHI",
+   "position": "CB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RCB",
+     "rank": 4,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Shoulder",
+   "details": "Wade (shoulder) did not participate in Wednesday's practice, Dave Zangaro of NBC Sports Philadelphia reports.",
+   "date": "2026-08-20T00:00Z"
+  },
+  {
+   "name": "Johnny Wilson",
+   "team": "PHI",
+   "position": "WR",
+   "rank": 13,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 13,
+     "slot": 1
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee",
+   "details": "Wilson (knee) reverted to Philadelphia's injured reserve Saturday, per the NFL's transaction log.",
+   "date": "2026-08-22T21:59Z"
+  },
+  {
+   "name": "Cole Wisniewski",
+   "team": "PHI",
+   "position": "S",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "SS",
+     "rank": 3,
+     "slot": 9
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "Wisniewski (hamstring) did not participate in Saturday's practice session, Zach Berman of The Athletic reports.",
+   "date": "2026-08-01T19:47Z"
+  },
+  {
+   "name": "Byron Young",
+   "team": "PHI",
+   "position": "DT",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "LDE",
+     "rank": 2,
+     "slot": 1
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Shoulder",
+   "details": "Young (shoulder) did not participate in Wednesday's practice, Dave Zangaro of NBC Sports Philadelphia reports.",
+   "date": "2026-08-20T00:04Z"
+  },
+  {
+   "name": "Jaquan Brisker",
+   "team": "PIT",
+   "position": "S",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "FS",
+     "rank": 1,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Cole Burgess",
+   "team": "PIT",
+   "position": "WR",
+   "rank": 14,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 14,
+     "slot": 2
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Brandin Echols",
+   "team": "PIT",
+   "position": "CB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "NB",
+     "rank": 2,
+     "slot": 12
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ankle",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Daequan Hardy",
+   "team": "PIT",
+   "position": "CB",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RCB",
+     "rank": 5,
+     "slot": 11
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "Hardy (undisclosed) reverted to Pittsburgh's injured reserve Tuesday, Aaron Wilson of KPRC 2 Houston reports.",
+   "date": "2026-05-06T03:09Z"
+  },
+  {
+   "name": "Donte Kent",
+   "team": "PIT",
+   "position": "CB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "NB",
+     "rank": 3,
+     "slot": 12
+    },
+    {
+     "unit": "Special Teams",
+     "position": "PR",
+     "rank": 3,
+     "slot": 4
+    },
+    {
+     "unit": "Special Teams",
+     "position": "KR",
+     "rank": 4,
+     "slot": 5
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Undisclosed",
+   "details": "Kent (knee) was placed on the active/PUP list Tuesday, Mark Kaboly of 93.7 The Fan Pittsburgh reports.",
+   "date": "2026-07-28T16:30Z"
+  },
+  {
+   "name": "Logan Lee",
+   "team": "PIT",
+   "position": "DT",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RDE",
+     "rank": 4,
+     "slot": 3
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "DK Metcalf",
+   "team": "PIT",
+   "position": "WR",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 1,
+     "slot": 1
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "Metcalf (undisclosed) returned to practice Monday after having been sidelined since Aug. 8, Alan Saunders of SteelersNow.com reports.",
+   "date": "2026-08-24T16:01Z"
+  },
+  {
+   "name": "Israel Mukuamu",
+   "team": "PIT",
+   "position": "S",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "NB",
+     "rank": 4,
+     "slot": 12
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-24T21:33Z"
+  },
+  {
+   "name": "Michael Pittman Jr.",
+   "team": "PIT",
+   "position": "WR",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 2,
+     "slot": 2
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "Pittman (right ankle) was in pads and going through stretching during Monday's practice, Alan Saunders of Steelers Now reports.",
+   "date": "2026-08-24T16:04Z"
+  },
+  {
+   "name": "Joey Porter Jr.",
+   "team": "PIT",
+   "position": "CB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "LCB",
+     "rank": 1,
+     "slot": 8
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Back",
+   "details": "The Steelers placed Porter (back) on the active/PUP list Tuesday.",
+   "date": "2026-07-28T17:18Z"
+  },
+  {
+   "name": "Jalen Ramsey",
+   "team": "PIT",
+   "position": "CB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "NB",
+     "rank": 1,
+     "slot": 12
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "Steelers head coach Mike McCarthy said that Ramsey (knee) will be activated from the PUP list Monday, Chris Adamski of TribLive.com reports.",
+   "date": "2026-08-24T14:41Z"
+  },
+  {
+   "name": "Brandon Smith",
+   "team": "PIT",
+   "position": "WR",
+   "rank": 8,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 8,
+     "slot": 2
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Brandon Aiyuk",
+   "team": "SF",
+   "position": "WR",
+   "rank": 13,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 13,
+     "slot": 1
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Knee - ACL + MCL",
+   "details": "San Francisco general manager John Lynch told reporters Saturday that Aiyuk (knee) will remain on the 49ers' reserve/left squad list, Adam Schefter of ESPN reports.",
+   "date": "2026-07-25T18:38Z"
+  },
+  {
+   "name": "Nick Bosa",
+   "team": "SF",
+   "position": "DE",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "WLB",
+     "rank": 1,
+     "slot": 4
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee - ACL",
+   "details": "Bosa's (knee) tendinitis symptoms have been subsiding recently, David Lombardi of SFStandard.com reports.",
+   "date": "2026-08-18T22:56Z"
+  },
+  {
+   "name": "Mike Evans",
+   "team": "SF",
+   "position": "WR",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 1,
+     "slot": 1
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Quadriceps",
+   "details": "Evans (quadriceps) is suited up for Saturday's practice, Nick Wagoner of ESPN.com reports.",
+   "date": "2026-08-22T21:10Z"
+  },
+  {
+   "name": "Andrew Farmer II",
+   "team": "SF",
+   "position": "DE",
+   "rank": 6,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "WLB",
+     "rank": 6,
+     "slot": 4
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Back",
+   "details": "San Francisco placed Farmer (back) on its injured-reserve list Thursday, Aaron Wilson of KPRC 2 Houston reports.",
+   "date": "2026-07-31T00:08Z"
+  },
+  {
+   "name": "Darrick Forrest",
+   "team": "SF",
+   "position": "S",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "FS",
+     "rank": 5,
+     "slot": 10
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "San Francisco placed Forrest (undisclosed) on its injured reserve list Thursday.",
+   "date": "2026-05-29T00:48Z"
+  },
+  {
+   "name": "Luke Gifford",
+   "team": "SF",
+   "position": "LB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "LILB",
+     "rank": 3,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Renardo Green",
+   "team": "SF",
+   "position": "CB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RCB",
+     "rank": 1,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "Green has a hamstring injury and is questionable to return to Thursday's preseason matchup with the Chargers.",
+   "date": "2026-08-21T02:59Z"
+  },
+  {
+   "name": "Isaac Guerendo",
+   "team": "SF",
+   "position": "RB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "KR",
+     "rank": 1,
+     "slot": 5
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 4,
+     "slot": 11
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Pectoral",
+   "details": "The 49ers placed Guerendo (pectoral) on the active/PUP list Saturday, Matt Maiocco of NBC Sports Bay Area reports.",
+   "date": "2026-07-25T20:09Z"
+  },
+  {
+   "name": "Gracen Halton",
+   "team": "SF",
+   "position": "DT",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RDE",
+     "rank": 2,
+     "slot": 3
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ankle",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Romello Height",
+   "team": "SF",
+   "position": "DE",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "WLB",
+     "rank": 3,
+     "slot": 4
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "Height (undisclosed) did not participate in Sunday's practice, Nick Wagoner of ESPN.com reports.",
+   "date": "2026-08-23T21:29Z"
+  },
+  {
+   "name": "Nate Hobbs",
+   "team": "SF",
+   "position": "CB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RCB",
+     "rank": 2,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Groin",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Jordan James",
+   "team": "SF",
+   "position": "RB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 3,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ribs",
+   "details": "James (ribs) returned to practice Saturday, Nick Wagoner of ESPN.com reports.",
+   "date": "2026-08-22T21:28Z"
+  },
+  {
+   "name": "Kyle Juszczyk",
+   "team": "SF",
+   "position": "FB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "FB",
+     "rank": 1,
+     "slot": 12
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Finger",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Mikail Kamara",
+   "team": "SF",
+   "position": "DE",
+   "rank": 7,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "WLB",
+     "rank": 7,
+     "slot": 4
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee",
+   "details": "Kamara (knee) reverted to the 49ers' injured reserve Monday, per the NFL's transaction log.",
+   "date": "2026-08-03T23:12Z"
+  },
+  {
+   "name": "Christian Kirk",
+   "team": "SF",
+   "position": "WR",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 3,
+     "slot": 8
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Calf",
+   "details": "Kirk (calf) continued to work on a side field at Saturday's practice, Vic Tafur of The Athletic reports.",
+   "date": "2026-08-22T21:35Z"
+  },
+  {
+   "name": "George Kittle",
+   "team": "SF",
+   "position": "TE",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 1,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Achilles",
+   "details": "Kittle (Achilles) was activated from the active/PUP list Sunday.",
+   "date": "2026-08-23T17:07Z"
+  },
+  {
+   "name": "Titus Leo",
+   "team": "SF",
+   "position": "DE",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "SLB",
+     "rank": 5,
+     "slot": 7
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "Leo (undisclosed) reverted from waivers to San Francisco's injured reserve list Wednesday, Nick Wagoner of ESPN.com reports.",
+   "date": "2026-08-20T00:27Z"
+  },
+  {
+   "name": "Vederian Lowe",
+   "team": "SF",
+   "position": "OT",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "LT",
+     "rank": 3,
+     "slot": 3
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ankle",
+   "details": "Lowe suffered a high ankle sprain during the 49ers' practice Sunday, Nick Wagoner of ESPN.com reports.",
+   "date": "2026-07-28T00:19Z"
+  },
+  {
+   "name": "Nick Martin",
+   "team": "SF",
+   "position": "LB",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "LILB",
+     "rank": 5,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "Martin (hamstring) didn't participate in San Francisco's practice Saturday, Matt Maiocco of NBC Sports Bay Area reports.",
+   "date": "2026-08-22T21:34Z"
+  },
+  {
+   "name": "Christian McCaffrey",
+   "team": "SF",
+   "position": "RB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 1,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "McCaffrey (undisclosed) said Sunday that he always planned to take a break during training camp and then \"ramp back up,\" Vic Tafur of The Athletic reports.",
+   "date": "2026-08-23T20:47Z"
+  },
+  {
+   "name": "Tanner McLachlan",
+   "team": "SF",
+   "position": "TE",
+   "rank": 8,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 8,
+     "slot": 10
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "McLachlan (undisclosed) reverted to the 49ers' injured reserve Saturday, per the NFL's transaction log.",
+   "date": "2026-08-01T20:45Z"
+  },
+  {
+   "name": "Malik Mustapha",
+   "team": "SF",
+   "position": "S",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "FS",
+     "rank": 1,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "Mustapha (hamstring) won't practice Wednesday, Matt Barrows of The Athletic reports.",
+   "date": "2026-07-29T21:13Z"
+  },
+  {
+   "name": "Ricky Pearsall",
+   "team": "SF",
+   "position": "WR",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "PR",
+     "rank": 3,
+     "slot": 4
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 14,
+     "slot": 2
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee - PCL",
+   "details": "Pearsall announced Thursday in a post on his personal Instagram account that he underwent season-ending surgery to repair the PCL in his right knee, David Lombardi of SFStandard.com reports.",
+   "date": "2026-08-13T15:11Z"
+  },
+  {
+   "name": "Austen Pleasants",
+   "team": "SF",
+   "position": "OT",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "LT",
+     "rank": 2,
+     "slot": 3
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "Pleasants won't return to Thursday's preseason game at the Chargers due to a knee injury, Jennifer Lee Chan of NBC Sports Bay Area reports",
+   "date": "2026-08-21T05:02Z"
+  },
+  {
+   "name": "Dominick Puni",
+   "team": "SF",
+   "position": "G",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RG",
+     "rank": 1,
+     "slot": 6
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Concussion",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "De'Zhaun Stribling",
+   "team": "SF",
+   "position": "WR",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 4,
+     "slot": 1
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Shoulder",
+   "details": "Stribling (shoulder) returned to practice Sunday, Nick Wagoner of ESPN.com reports.",
+   "date": "2026-08-23T18:20Z"
+  },
+  {
+   "name": "Patrick Taylor Jr.",
+   "team": "SF",
+   "position": "RB",
+   "rank": 7,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 7,
+     "slot": 11
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "The 49ers placed Taylor (undisclosed) on injured reserve Thursday, David Lombardi of SFStandard.com reports.",
+   "date": "2026-08-21T00:46Z"
+  },
+  {
+   "name": "Xavier Thomas",
+   "team": "SF",
+   "position": "LB",
+   "rank": null,
+   "depth": [],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "The 49ers waived/injured Thomas (undisclosed) on Saturday.",
+   "date": "2026-08-23T03:48Z"
+  },
+  {
+   "name": "Brett Toth",
+   "team": "SF",
+   "position": "C",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "C",
+     "rank": 2,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Concussion",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Keion White",
+   "team": "SF",
+   "position": "DE",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "SLB",
+     "rank": 2,
+     "slot": 7
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Groin",
+   "details": "White (groin) left Saturday's practice early, Nick Wagoner of ESPN.com reports.",
+   "date": "2026-08-01T19:23Z"
+  },
+  {
+   "name": "Mykel Williams",
+   "team": "SF",
+   "position": "DE",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "SLB",
+     "rank": 1,
+     "slot": 7
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Knee - ACL",
+   "details": "Coach Kyle Shanahan said Tuesday that Williams (knee) is considered a \"long shot\" to play in Week 1 against the Rams, Dylan Grausz of NBC Sports reports.",
+   "date": "2026-08-19T00:14Z"
+  },
+  {
+   "name": "Jake Bobo",
+   "team": "SEA",
+   "position": "WR",
+   "rank": 12,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 12,
+     "slot": 8
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee",
+   "details": "The Seahawks placed Bobo (knee) on injured reserve Saturday, John Boyle of the team's official site reports.",
+   "date": "2026-08-22T17:45Z"
+  },
+  {
+   "name": "Zach Charbonnet",
+   "team": "SEA",
+   "position": "RB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 1,
+     "slot": 11
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Knee - ACL",
+   "details": "Charbonnet (knee) remains on the active/PUP list as the Seahawks' second preseason contest (Sunday, Aug. 23 versus the Titans) approaches.",
+   "date": "2026-08-16T19:52Z"
+  },
+  {
+   "name": "Bud Clark",
+   "team": "SEA",
+   "position": "S",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "SS",
+     "rank": 4,
+     "slot": 9
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Ankle",
+   "details": "Seahawks head coach Mike Macdonald said that Clark will be out for \"multiple months\" after fracturing his right ankle in Sunday's 19-16 preseason loss to Tennessee, Brady Henderson of ESPN.com reports.",
+   "date": "2026-08-24T13:20Z"
+  },
+  {
+   "name": "Nick Emmanwori",
+   "team": "SEA",
+   "position": "S",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "NB",
+     "rank": 1,
+     "slot": 12
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ankle",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Tory Horton",
+   "team": "SEA",
+   "position": "WR",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "PR",
+     "rank": 2,
+     "slot": 4
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 4,
+     "slot": 1
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Shemar Jean-Charles",
+   "team": "SEA",
+   "position": "CB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RCB",
+     "rank": 4,
+     "slot": 11
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Julian Neal",
+   "team": "SEA",
+   "position": "CB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RCB",
+     "rank": 2,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Leg",
+   "details": "Neal has missed four consecutive training camp practices due to a leg injury, Gregg Bell of The News Tribune reports.",
+   "date": "2026-08-02T17:24Z"
+  },
+  {
+   "name": "Robbie Ouzts",
+   "team": "SEA",
+   "position": "FB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "FB",
+     "rank": 3,
+     "slot": 12
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Neck",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Brandon Pili",
+   "team": "SEA",
+   "position": "DT",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "NT",
+     "rank": 2,
+     "slot": 2
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Lower Leg",
+   "details": "Pili missed a third consecutive training camp practice Sunday due to a lower-leg injury, Gregg Bell of The News Tribune reports.",
+   "date": "2026-08-02T17:46Z"
+  },
+  {
+   "name": "Mason Richman",
+   "team": "SEA",
+   "position": "G",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "LG",
+     "rank": 2,
+     "slot": 4
+    }
+   ],
+   "status": "Doubtful",
+   "injury_type": "Knee",
+   "details": "doubtful",
+   "date": "2026-08-24T13:29Z"
+  },
+  {
+   "name": "Rodney Thomas II",
+   "team": "SEA",
+   "position": "S",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "FS",
+     "rank": 2,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hand",
+   "details": "questionable",
+   "date": "2026-08-24T13:32Z"
+  },
+  {
+   "name": "Joseph Vaughn",
+   "team": "SEA",
+   "position": "LB",
+   "rank": 6,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RILB",
+     "rank": 6,
+     "slot": 6
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Emanuel Wilson",
+   "team": "SEA",
+   "position": "RB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 4,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Chris Braswell",
+   "team": "TB",
+   "position": "LB",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "WLB",
+     "rank": 3,
+     "slot": 4
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "Braswell (undisclosed) did not play in the Buccaneers' 16-15 preseason win over the Chiefs on Saturday, Greg Auman of Fox Sports reports.",
+   "date": "2026-08-23T03:50Z"
+  },
+  {
+   "name": "Kadarius Calloway",
+   "team": "TB",
+   "position": "RB",
+   "rank": 6,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 6,
+     "slot": 11
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Emeka Egbuka",
+   "team": "TB",
+   "position": "WR",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 1,
+     "slot": 1
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Toe",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Dennis Houston",
+   "team": "TB",
+   "position": "WR",
+   "rank": 8,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 8,
+     "slot": 2
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Groin",
+   "details": "Houston has been ruled out for the rest of Saturday's preseason game against the Chiefs due to a groin injury.",
+   "date": "2026-08-23T01:50Z"
+  },
+  {
+   "name": "Tez Johnson",
+   "team": "TB",
+   "position": "WR",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Special Teams",
+     "position": "PR",
+     "rank": 2,
+     "slot": 4
+    },
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 5,
+     "slot": 2
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Groin",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Jalen McMillan",
+   "team": "TB",
+   "position": "WR",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "WR",
+     "rank": 3,
+     "slot": 8
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Cade Otton",
+   "team": "TB",
+   "position": "TE",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 1,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Billy Schrauth",
+   "team": "TB",
+   "position": "G",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "LG",
+     "rank": 3,
+     "slot": 4
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "Schrauth (knee) did not participate in Tuesday's practice, Greg Auman of Fox Sports reports.",
+   "date": "2026-08-18T23:58Z"
+  },
+  {
+   "name": "Keldric Faulk",
+   "team": "TEN",
+   "position": "DE",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LDE",
+     "rank": 2,
+     "slot": 1
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Shoulder",
+   "details": "questionable",
+   "date": "2026-08-24T14:32Z"
+  },
+  {
+   "name": "Jaylen Harrell",
+   "team": "TEN",
+   "position": "LB",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LDE",
+     "rank": 5,
+     "slot": 1
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Knee - ACL",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Nazeeh Johnson",
+   "team": "TEN",
+   "position": "S",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "LCB",
+     "rank": 4,
+     "slot": 8
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Ankle",
+   "details": "The Titans placed Johnson (ankle) on injured reserve Friday, Jim Wyatt of the team's official site reports.",
+   "date": "2026-08-21T23:45Z"
+  },
+  {
+   "name": "Jaren Kanak",
+   "team": "TEN",
+   "position": "TE",
+   "rank": 6,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 6,
+     "slot": 10
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Pectoral",
+   "details": "ir",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Sanoussi Kane",
+   "team": "TEN",
+   "position": "S",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "FS",
+     "rank": 5,
+     "slot": 10
+    }
+   ],
+   "status": "Injured Reserve",
+   "injury_type": "Undisclosed",
+   "details": "Kane (undisclosed) reverted to the Titans' injured reserve Friday, per the NFL's transaction log.",
+   "date": "2026-08-01T02:08Z"
+  },
+  {
+   "name": "Kalel Mullings",
+   "team": "TEN",
+   "position": "RB",
+   "rank": 5,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 5,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hip",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Mitchell Trubisky",
+   "team": "TEN",
+   "position": "QB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "QB",
+     "rank": 2,
+     "slot": 9
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Biceps",
+   "details": "Trubisky (biceps) did not participate in Wednesday's practice, Terry McCormick of TitanInsider.com reports.",
+   "date": "2026-08-19T23:12Z"
+  },
+  {
+   "name": "Joshua Williams",
+   "team": "TEN",
+   "position": "CB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 4-3 D",
+     "position": "RCB",
+     "rank": 2,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Pectoral",
+   "details": "questionable",
+   "date": "2026-08-24T14:35Z"
+  },
+  {
+   "name": "Nick Allegretti",
+   "team": "WSH",
+   "position": "G",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "C",
+     "rank": 1,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Calf",
+   "details": "Allegretti (calf) will not play in Saturday's preseason game against Detroit, Ben Standig of Big 100 Washington D.C. reports.",
+   "date": "2026-08-21T01:30Z"
+  },
+  {
+   "name": "Trey Amos",
+   "team": "WSH",
+   "position": "CB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "LCB",
+     "rank": 1,
+     "slot": 8
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Ankle",
+   "details": "Amos (ankle) is getting healthier but is not ready to return to the field at this point, Tashan Reed of The Washington Post reports.",
+   "date": "2026-08-20T23:14Z"
+  },
+  {
+   "name": "Dorance Armstrong",
+   "team": "WSH",
+   "position": "DE",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "SLB",
+     "rank": 2,
+     "slot": 7
+    }
+   ],
+   "status": "Suspension",
+   "injury_type": "Suspension",
+   "details": "reserve-sus",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "John Bates",
+   "team": "WSH",
+   "position": "TE",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "TE",
+     "rank": 2,
+     "slot": 10
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Hamstring",
+   "details": "Bates (hamstring) is set to begin practicing Tuesday, Zach Selby of the Commanders' official site reports.",
+   "date": "2026-08-16T20:37Z"
+  },
+  {
+   "name": "K'Lavon Chaisson",
+   "team": "WSH",
+   "position": "LB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "SLB",
+     "rank": 1,
+     "slot": 7
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee",
+   "details": "Chaisson (knee) will not play in Saturday's preseason game against the Lions.",
+   "date": "2026-08-22T15:01Z"
+  },
+  {
+   "name": "Jacory Croskey-Merritt",
+   "team": "WSH",
+   "position": "RB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 1,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Undisclosed",
+   "details": "Coach Dan Quinn said Monday that Croskey-Merritt (lower body) will work on the side with the Commanders' training staff this week, John Keim of ESPN.com reports.",
+   "date": "2026-08-24T18:32Z"
+  },
+  {
+   "name": "Jordan Magee",
+   "team": "WSH",
+   "position": "LB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "LILB",
+     "rank": 2,
+     "slot": 5
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Shoulder",
+   "details": "Magee suffered a shoulder injury during Friday's preseason opener against the Dolphins, Nicki Jhabvala of The Washington Post reports.",
+   "date": "2026-08-19T23:45Z"
+  },
+  {
+   "name": "Marcus Mariota",
+   "team": "WSH",
+   "position": "QB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "QB",
+     "rank": 2,
+     "slot": 9
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Knee - MCL",
+   "details": "questionable",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Jeremy McNichols",
+   "team": "WSH",
+   "position": "RB",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 4,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Quadriceps",
+   "details": "McNichols (quadriceps) will not play in Saturday's preseason game against Detroit.",
+   "date": "2026-08-22T14:37Z"
+  },
+  {
+   "name": "Jer'Zhan Newton",
+   "team": "WSH",
+   "position": "DT",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "LDE",
+     "rank": 4,
+     "slot": 1
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Pectoral",
+   "details": "Commanders head coach Dan Quinn confirmed that Newton underwent surgery to repair a torn pectoral Wednesday in New York, but a timeline for the defensive lineman's return to the field hasn't yet been established, Nicki Jhabvala of The Athletic reports.",
+   "date": "2026-08-20T13:36Z"
+  },
+  {
+   "name": "Odafe Oweh",
+   "team": "WSH",
+   "position": "LB",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "WLB",
+     "rank": 1,
+     "slot": 4
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Calf",
+   "details": "Oweh (undisclosed) did not participate in Tuesday's practice, John Keim of ESPN.com reports.",
+   "date": "2026-08-18T22:31Z"
+  },
+  {
+   "name": "Tim Settle",
+   "team": "WSH",
+   "position": "DT",
+   "rank": 1,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "LDE",
+     "rank": 1,
+     "slot": 1
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Calf",
+   "details": "Settle (calf) will not play against the Lions in Saturday's preseason game.",
+   "date": "2026-08-22T15:05Z"
+  },
+  {
+   "name": "Laremy Tunsil",
+   "team": "WSH",
+   "position": "OT",
+   "rank": 4,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "LT",
+     "rank": 4,
+     "slot": 3
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Triceps",
+   "details": "out",
+   "date": "2026-08-19T12:07Z"
+  },
+  {
+   "name": "Rachaad White",
+   "team": "WSH",
+   "position": "RB",
+   "rank": 2,
+   "depth": [
+    {
+     "unit": "3WR 1TE",
+     "position": "RB",
+     "rank": 2,
+     "slot": 11
+    }
+   ],
+   "status": "Questionable",
+   "injury_type": "Calf",
+   "details": "Coach Dan Quinn said White (hamstring) will participate in individual drills at Monday's practice, Ben Standig of Big 100 Washington D.C. reports.",
+   "date": "2026-08-24T18:26Z"
+  },
+  {
+   "name": "Deatrich Wise Jr.",
+   "team": "WSH",
+   "position": "DE",
+   "rank": 3,
+   "depth": [
+    {
+     "unit": "Base 3-4 D",
+     "position": "RDE",
+     "rank": 3,
+     "slot": 3
+    }
+   ],
+   "status": "Out",
+   "injury_type": "Quadriceps",
+   "details": "The Commanders placed Wise (undisclosed) on the active/PUP list Saturday.",
+   "date": "2026-07-25T21:17Z"
+  }
+ ]
+}
