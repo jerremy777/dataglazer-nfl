@@ -8,7 +8,8 @@ from typing import Any
 
 from dataglazer_nfl.config import DEPTH_CHART_SEASON
 
-from .teams import _ROSTER_MAX_WORKERS, get_team_roster, get_teams
+from .roster import _int_or_none
+from .teams import _ROSTER_MAX_WORKERS, get_team_roster, get_teams, resolve_team_id
 
 
 def get_team_injuries(
@@ -22,13 +23,24 @@ def get_team_injuries(
     follow-up request per player is needed. Most of them are empty — a healthy
     roster is ~10 injured out of ~95 — and dropping those is the filter.
 
+    Height and weight ride along from the same payload, keyed as `list_roster`
+    keys them (`height_in`, `height`, `weight_lb`), so rows from the two tools
+    line up without translation.
+
     With `include_depth`, each row also carries the player's depth-chart
     standing, which is what separates a starter's hamstring from a
     fourth-stringer's. That costs one extra request per team; see
     `get_depth_chart` for what `rank` does and does not mean. Turning it off
     omits the `rank` and `depth` keys entirely rather than nulling them, so a
     `rank` of None keeps its one meaning: on the roster, off the depth chart.
+
+    `team_id` may be a name ("Chiefs", "KC") or an ESPN team ID. The name is
+    resolved here rather than only in the MCP tool because the depth-chart
+    endpoint 404s on anything but a numeric ID, and a notebook calling this
+    directly should not have to know that. Resolving a value that is already
+    numeric costs nothing.
     """
+    team_id = resolve_team_id(team_id)
     team = (
         get_team_roster(
             team_id, season=(season or DEPTH_CHART_SEASON) if include_depth else None
@@ -48,6 +60,11 @@ def get_team_injuries(
                 "name": athlete.get("displayName"),
                 "team": abbr,
                 "position": position.get("abbreviation"),
+                # Same keys and same int conversion `list_roster` uses, so the
+                # two tools can be joined without translating between them.
+                "height_in": _int_or_none(athlete.get("height")),
+                "height": athlete.get("displayHeight"),
+                "weight_lb": _int_or_none(athlete.get("weight")),
             }
             if include_depth:
                 # Best depth-chart rank and every spot held, attached by

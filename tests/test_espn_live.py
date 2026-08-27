@@ -50,3 +50,47 @@ def test_team_colors_are_matplotlib_ready():
     for pair in colors.values():
         assert pair["primary"].startswith("#") and len(pair["primary"]) == 7
         assert pair["alternate"] != pair["primary"]
+
+
+def test_roster_carries_biography_for_every_player():
+    rows = espn.get_team_players(12)
+    assert 80 <= len(rows) <= 100
+    assert all(r["height_in"] and r["weight_lb"] for r in rows)
+    assert {r["position"] for r in rows} >= {"QB", "WR", "CB"}
+    # Roughly half a roster is undrafted and many carry no contract, so these
+    # assert the fields arrive at all rather than that everyone has them.
+    assert any(r["draft"] for r in rows)
+    assert any(r["contract"] for r in rows)
+    # ESPN has no photo for the newest rookies — 87/95 on this roster.
+    assert sum(1 for r in rows if r["headshot"]) > len(rows) * 0.75
+
+
+def test_roster_depth_join_covers_the_whole_roster():
+    rows = espn.get_team_players(12)
+    assert any(r["rank"] == 1 for r in rows)
+    assert all("rank" in r and "depth" in r for r in rows)
+
+
+def test_injuries_accept_a_team_name_not_just_an_id():
+    """The depth-chart endpoint 404s on anything but a numeric ID, so the name
+    has to be resolved in the client — not only in the MCP tool."""
+    rows = espn.get_team_injuries("KC")
+    assert rows
+    assert all(r["team"] == "KC" for r in rows)
+    assert all("rank" in r and "depth" in r for r in rows)
+
+
+def test_injury_rows_carry_height_and_weight():
+    """Keyed as `get_team_players` keys them, so the two can be joined."""
+    rows = espn.get_team_injuries("KC")
+    assert all(r["height_in"] and r["weight_lb"] for r in rows)
+    assert all(isinstance(r["height_in"], int) for r in rows)
+    assert all(r["height"].startswith(("5", "6", "7")) for r in rows)
+
+    roster = {r["name"]: r for r in espn.get_team_players("KC")}
+    for row in rows:
+        player = roster[row["name"]]
+        assert (row["height_in"], row["weight_lb"]) == (
+            player["height_in"],
+            player["weight_lb"],
+        )

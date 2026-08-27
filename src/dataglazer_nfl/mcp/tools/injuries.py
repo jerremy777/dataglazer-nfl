@@ -55,9 +55,13 @@ def list_injuries(
             to 32 — worth it when the question is only who is hurt, not how
             much it matters. Off, the two keys are absent rather than null.
 
-    Returns [{name, team, position, rank, depth, status, injury_type, details,
-    date}], where `injury_type` is the body part ("Knee", "Foot") and `details`
-    the beat-reporter writeup. `rank` is the player's best depth-chart rank
+    Returns [{name, team, position, height_in, height, weight_lb, rank, depth,
+    status, injury_type, details, date}], where `injury_type` is the body part
+    ("Knee", "Foot") and `details` the beat-reporter writeup. `height_in` and
+    `weight_lb` are integers (71, 180) and `height` the display form ("5' 11\"") —
+    the same keys `list_roster` uses, so rows from the two tools join directly.
+
+    `rank` is the player's best depth-chart rank
     (1 = starter) or None when they are off the chart entirely, and `depth` is
     [{unit, position, rank, slot}] for every spot held, best rank first — `unit`
     being ESPN's formation label ("3WR 1TE", "Base 3-4 D", "Special Teams").

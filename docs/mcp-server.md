@@ -216,6 +216,95 @@ ran it back into LAC's end zone.
 - **Turnover differential** reads each team's takeaways off its opponent's
   giveaways in the same game, so a week's differentials sum to zero.
 
+## Roster tools
+
+Live rather than a week rollup, so nothing here is cached — injury records and
+depth charts change daily. Both tools read the same team payload and both join
+the team's depth chart, so a starter is distinguishable from a backup.
+
+| Tool | Returns |
+| --- | --- |
+| `list_roster(team, position, include_depth=True)` | One row per player — biography, draft, contract, injuries |
+| `list_injuries(team, status, position, include_depth=True)` | One row per injury, with the player's height and weight |
+
+Omitting `team` pulls all 32 (~3,020 players, ~1.5s). ESPN offers no `status` or
+`position` filter on its roster payload, so both are applied client-side after
+the fetch.
+
+### `list_roster`
+
+The tool for who a player *is* rather than what he did in a given week — how
+tall a starting offensive line is, what a safety weighs, how old a position
+group is, what a first-rounder is being paid.
+
+```
+{name, espn_id, team, position, position_name, jersey, height_in, height,
+ weight_lb, age, birth_date, birth_place, experience_years, status, rank, depth,
+ headshot, draft, contract, injury_status, injuries}
+```
+
+`height_in` and `weight_lb` are integers (`71`, `180`) — ESPN sends whole-numbered
+floats, and `71.0` in a chart label is noise. `height` keeps the display form
+(`"5' 11\""`) because inches → feet-and-inches is the one conversion that isn't
+trivial at the call site.
+
+`draft` is `{year, round, pick, text}`, where `pick` is ESPN's `selection` (the
+overall number). `contract` is `{salary, bonus, salary_remaining,
+years_remaining, signed_through}` in whole dollars. `injuries` is a list of
+`{status, type, location, detail, side, return_date, date, comment}` — `type` is
+the body part (`"Knee"`), `location` the region (`"Leg"`), `detail` the nature
+(`"Surgery"`) and `side` which one.
+
+Three things about the payload that will otherwise bite:
+
+- **`status` is roster standing, not health.** It reads `"Day-To-Day"` even for a
+  player on season-ending IR. `injury_status` is the reliable signal — hoisted
+  off the first injury, `None` when healthy.
+- **`draft` and `contract` are `None` for roughly half a roster.** Undrafted free
+  agents are a large minority of a 90-man roster (1,786 of 3,020 league-wide
+  carry a draft slot, 1,868 a contract), and ESPN omits the key entirely rather
+  than sending an empty object. Their absence is normal, not a failed lookup.
+- **The contract key is singular.** This endpoint sends `contract` with terms;
+  the *other* roster endpoint (`teams/{id}/roster`) sends a plural `contracts`
+  holding a salary-per-season list — a different shape under a near-identical
+  name.
+
+`headshot` is `None` for the newest rookies; ESPN has no photo for roughly one
+player in ten (87/95 on a sampled roster).
+
+### `list_injuries`
+
+```
+{name, team, position, height_in, height, weight_lb, rank, depth, status,
+ injury_type, details, date}
+```
+
+`injury_type` is the body part (`"Knee"`) and `details` the beat-reporter
+writeup. Height and weight use the same keys and the same int conversion as
+`list_roster`, so rows from the two tools join without translation.
+
+### The endpoint, and what it does not have
+
+Both tools read one URL:
+
+```
+https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/{TEAM_ID}?enable=roster,projection,stats
+```
+
+Two limitations were verified against live data on all 32 teams, so neither is a
+parsing miss worth re-investigating:
+
+- **No college.** The `college` field is `{}` or `null` for every player on every
+  team here, which is why `list_roster` does not return one. The dedicated
+  `teams/{id}/roster` endpoint *does* have it (94/95 on a sampled roster) and its
+  athlete IDs align 95/95 with this payload, so folding it in is a clean local
+  join — at the cost of a second request per team, and that endpoint carries no
+  `draft`.
+- **`projection,stats` came back empty.** `projections` and `statistics` were
+  empty for every player on every team sampled in preseason 2026. The params stay
+  in the URL, but don't build a per-player projections feature on the assumption
+  they are populated without re-checking in-season.
+
 ## Setup
 
 No credentials to configure — every endpoint the server uses is unauthenticated.
@@ -261,7 +350,7 @@ claude mcp add nfl -- uv run --directory .../dataglazer-nfl nfl-mcp
   no other NFL data source, so resolve a name rather than reusing an ID from
   elsewhere.
 - **Client-side filters:** ESPN offers no `status` or `position` filter on its
-  roster payload, so `list_injuries` applies both after fetching.
+  roster payload, so `list_injuries` and `list_roster` apply theirs after fetching.
 - **Season:** defaults to `2025`; override via the `year` / `season` argument.
 - **Undocumented endpoints.** They have drifted before; field names here were
   verified against live data. If a series comes back empty, dump one summary and
@@ -277,6 +366,15 @@ print(e.get_efficiency_leaders(3, 2025, summaries=s)[:3]); \
 print(e.get_workhorse_leaders(3, 2025, summaries=s)[:3]); \
 print(e.get_big_play_board(3, 2025, summaries=s)); \
 print(e.get_turnover_tracker(3, 2025, summaries=s)[:3])"
+```
+
+Rosters need only a team — a name or an ESPN ID:
+
+```sh
+uv run python -c "from dataglazer_nfl.clients import espn as e; \
+r = e.get_team_players('KC'); \
+print(len(r), 'players'); \
+print([p for p in r if p['position'] == 'QB' and p['rank'] == 1])"
 ```
 
 The single-game tools need only an event ID:

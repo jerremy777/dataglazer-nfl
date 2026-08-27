@@ -98,6 +98,7 @@ def get_depth_chart(team_id: str | int, season: int) -> dict[str, list[dict[str,
     URLs rather than inline objects, which is why athlete IDs are regexed out
     of them instead of read from a field.
     """
+    team_id = resolve_team_id(team_id)
     data = _core_get(f"seasons/{season}/teams/{team_id}/depthcharts")
 
     by_athlete: dict[str, list[dict[str, Any]]] = {}

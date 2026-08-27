@@ -16,7 +16,7 @@ One installable package with three consumers sitting on top of one client layer:
 
 ```
 src/dataglazer_nfl/
-  clients/espn/     ESPN client: HTTP, disk cache, weekly rollups, games, injuries
+  clients/espn/     ESPN client: HTTP, disk cache, weekly rollups, games, rosters
   mcp/              MCP server — a thin facade whose docstrings are the tool schemas
   viz/              theme: dataglazer.mplstyle, palette tokens
   config.py         every path, anchored to the repo root
@@ -52,9 +52,10 @@ alone needs only the two core dependencies.
 uv run nfl-mcp
 ```
 
-Eight tools over stdio — weekly rollups (efficiency, workhorse, big plays,
-turnovers), single-game tools (scoring summary, drives), and league-wide
-injuries joined onto the depth chart. See [docs/mcp-server.md](docs/mcp-server.md)
+Nine tools over stdio — weekly rollups (efficiency, workhorse, big plays,
+turnovers), single-game tools (scoring summary, drives), and roster tools
+(full player biography, injuries) joined onto the depth chart. See
+[docs/mcp-server.md](docs/mcp-server.md)
 for the data-source quirks and caching rationale, and
 [references/espn-api.md](references/espn-api.md) for the raw endpoints.
 

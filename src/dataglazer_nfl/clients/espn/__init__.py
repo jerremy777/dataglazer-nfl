@@ -19,6 +19,7 @@ from .games import (
 )
 from .http import CORE, POSTSEASON, PRESEASON, REGULAR_SEASON, SITE
 from .injuries import get_league_injuries, get_team_injuries
+from .roster import get_league_players, get_team_players
 from .schedule import (
     clear_cache,
     get_game_summary,
@@ -59,8 +60,10 @@ __all__ = [
     "get_game_scoring_summary",
     "get_game_summary",
     "get_league_injuries",
+    "get_league_players",
     "get_team_colors",
     "get_team_injuries",
+    "get_team_players",
     "get_team_roster",
     "get_teams",
     "get_turnover_tracker",
