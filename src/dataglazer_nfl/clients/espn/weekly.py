@@ -8,7 +8,10 @@ from __future__ import annotations
 
 from typing import Any
 
+from ._field import ball_carrier, frame_from_sides, net_yards, path_yards, play_segments
 from ._parse import _all_plays, _stat_groups, _team_abbrs, _to_int
+from .colors import get_team_colors
+from .games import _game_teams, _matchup_name, classify_scoring_play
 from .http import REGULAR_SEASON
 from .schedule import get_week_summaries
 
@@ -147,12 +150,17 @@ def get_big_play_board(
     min_yards: int = 20,
     include_returns: bool = False,
     summaries: list[dict[str, Any]] | None = None,
-) -> list[dict[str, Any]]:
-    """The week's longest plays.
+) -> dict[str, Any]:
+    """The week's longest plays, with field-map geometry.
 
     Defaults to plays from scrimmage (runs and receptions). Set
     `include_returns=True` to also consider interception/punt/kick returns,
     which are credited to the returning (defensive) team.
+
+    Every play carries a `segments` path on a single 0-100 field, expressed in
+    the frame of the team that put the ball in play — see `_field` for why that
+    convention is the one that makes the chart readable. `derived_count` on the
+    envelope says how many plays had a hinge back-solved rather than stated.
     """
     if summaries is None:
         summaries = get_week_summaries(week, year, season_type)
@@ -162,6 +170,12 @@ def get_big_play_board(
 
     for game in summaries:
         abbrs = _team_abbrs(game)
+        sides, _, _ = _game_teams(game)
+        frame = frame_from_sides(sides)
+        colors = get_team_colors(game)
+        event_id = str((game.get("header") or {}).get("id") or "")
+        game_name = _matchup_name(game)
+
         for play in _all_plays(game):
             play_type = (play.get("type") or {}).get("text", "")
             if play_type not in wanted:
@@ -182,20 +196,45 @@ def get_big_play_board(
             )
             if team_id is None:  # e.g. two-point attempts omit participant types
                 team_id = str((play.get("start", {}).get("team") or {}).get("id", ""))
+            team = abbrs.get(team_id, "")
+
+            # The frame belongs to whoever put the ball in play. `start.team` is
+            # that team even on a kickoff, where ESPN files the *receiving* side
+            # as the "offense" participant.
+            snapper = abbrs.get(str((play.get("start", {}).get("team") or {}).get("id", "")), "")
+            other = next((abbr for abbr in frame if abbr != snapper), "")
+            text = play.get("text", "")
+
+            segments = play_segments(play, frame.get(snapper, 0), frame, snapper, other)
 
             results.append(
                 {
+                    "event_id": event_id,
                     "yardage": yardage,
-                    "text": play.get("text", ""),
-                    "team": abbrs.get(team_id, ""),
+                    "text": text,
+                    "team": team,
                     "type": play_type,
                     "touchdown": "Touchdown" in play_type,
                     "quarter": (play.get("period") or {}).get("number"),
+                    "clock": (play.get("clock") or {}).get("displayValue"),
+                    "game_name": game_name,
+                    "opponent": other if team == snapper else snapper,
+                    "player": ball_carrier(play_type, text),
+                    "unit": classify_scoring_play(play_type, text, team, snapper),
+                    "team_colors": colors.get(team, {}),
+                    "frame": "snapping_team",
+                    "segments": segments,
+                    "path_yards": path_yards(segments) if segments else None,
+                    "net": net_yards(segments) if segments else None,
                 }
             )
 
     results.sort(key=lambda r: r["yardage"], reverse=True)
-    return results[:top_n]
+    plays = results[:top_n]
+    derived = sum(
+        any(seg["origin_source"] == "derived" for seg in play["segments"]) for play in plays
+    )
+    return {"plays": plays, "derived_count": derived}
 
 
 # ---------------------------------------------------------------------------

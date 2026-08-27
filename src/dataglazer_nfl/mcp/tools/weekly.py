@@ -96,13 +96,36 @@ def get_week_big_plays(
     top_n: int = 5,
     min_yards: int = 20,
     include_returns: bool = False,
-) -> list[dict[str, Any]]:
-    """The longest plays of ONE week, from play-by-play.
+) -> dict[str, Any]:
+    """The longest plays of ONE week, with geometry for a field map.
 
     Backs the "Big Play Board" series. Considers plays from scrimmage (runs and
     receptions) by default; kicks and punts are excluded because ESPN reports a
     kick's distance in the same yardage field, which would otherwise fill the
     board with field goals.
+
+    Every play carries a `segments` path that can be drawn directly on a single
+    0-100 field, with no need to parse `text`.
+
+    **The frame is the team that put the ball in play** (`frame:
+    "snapping_team"`). They attack toward 100; 0 is the goal line they defend.
+    On a kickoff the kicking team takes that role, so kick and punt returns
+    behave like every other return. Direction therefore carries meaning:
+    explosive offensive plays run left to right, while interception, fumble,
+    punt and kick returns run right to left with a negative `net`. A pick-six
+    draws as a short forward stub hinged into a long backward sweep, and reads
+    as a pick-six before any colour or label. The underlying rule is
+    "possession changed", not "the defense did it" — a sack would also point
+    left — which is safe only while the board stays explosives-only.
+
+    Three yardage numbers, all worth having separately:
+
+    - `yardage` is ESPN's credited stat and what the board sorts on.
+    - `path_yards` is the ground the ball actually covered. On an 83-yard punt
+      return it is 135, because the punt itself travelled 52 — this is what
+      stops a chart labelling an arrow "83" while drawing it 135 long.
+    - `net` is signed displacement from the first segment's start to the last
+      segment's end, and is what drives arrow direction.
 
     Args:
         week: Week number within the season type.
@@ -113,7 +136,23 @@ def get_week_big_plays(
         include_returns: Also consider interception/fumble/punt/kick returns,
             credited to the returning (defensive) team.
 
-    Returns [{yardage, text, team, type, touchdown, quarter}] sorted by yardage.
+    Returns {plays, derived_count}. Each play is {event_id, yardage, text, team,
+    type, touchdown, quarter, clock, game_name, opponent, player, unit,
+    team_colors, frame, segments, path_yards, net}, sorted by yardage.
+
+    A segment is {from, to, kind, by, origin_source}: `from`/`to` are yard lines
+    in the snapping team's frame, `kind` is one of pass / run / punt / kick /
+    return / lateral / sack, and `by` is the team that moved the ball on that
+    leg — not always the snapping team, since a pick-six's return leg belongs to
+    the defense. A play from scrimmage has exactly one segment; anything where
+    the ball changed hands has two, so the hinge can be drawn.
+
+    `origin_source` is "play_text" when the yard line was stated in the play
+    description and "derived" when it was back-solved, which ESPN forces on
+    plays collapsed into a scoring-summary row ("Jacob Cowing 83 Yd Punt
+    Return"). `derived_count` says how many of the returned plays contain a
+    derived segment, so a chart can dash or footnote them rather than silently
+    drawing an inference as a measurement.
     """
     return espn.get_big_play_board(
         week,

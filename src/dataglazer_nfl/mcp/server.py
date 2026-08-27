@@ -7,7 +7,7 @@ Single-week rollups — these back the four recurring dataglazer series:
   - list_week_games            : the week's games and whether they are final
   - get_week_efficiency_leaders: passer rating, that week only
   - get_week_workhorse_leaders : carries + rushing yards, that week only
-  - get_week_big_plays         : the week's longest plays
+  - get_week_big_plays         : the week's longest plays, with field-map geometry
   - get_week_turnover_tracker  : team takeaway/giveaway differential
 
 Single-game tools (take an `event_id` from list_week_games):

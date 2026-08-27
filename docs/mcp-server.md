@@ -18,7 +18,7 @@ the rollups are computed locally. All take `(week, year, season_type)`, where
 | `list_week_games(week, year, season_type)` | — | `{id, name, status, completed, date}` per game. |
 | `get_week_efficiency_leaders(week, year, season_type, min_attempts, top_n)` | Efficiency Leaders | `{name, team, rating, comp, att, yards, td, int}` |
 | `get_week_workhorse_leaders(week, year, season_type, min_carries, top_n)` | Workhorse Watch | `{name, team, carries, yards, td, long}` |
-| `get_week_big_plays(week, year, season_type, top_n, min_yards, include_returns)` | Big Play Board | `{yardage, text, team, type, touchdown, quarter}` |
+| `get_week_big_plays(week, year, season_type, top_n, min_yards, include_returns)` | Big Play Board | `{plays, derived_count}` — see [Big-play geometry](#big-play-geometry) |
 | `get_week_turnover_tracker(week, year, season_type)` | Turnover Tracker | `{team, opponent, giveaways, takeaways, diff}` |
 
 ## Single-game tools
@@ -146,6 +146,73 @@ Details worth knowing:
   ranking raw yardage produces a board of FGs and kickoffs. The board is
   restricted to plays from scrimmage; `include_returns=True` adds
   interception/fumble/punt/kick returns, credited to the returning team.
+
+## Big-play geometry
+
+`get_week_big_plays` returns `{plays, derived_count}`. Each play keeps the
+original `{event_id, yardage, text, team, type, touchdown, quarter}` and adds
+labelling fields — `clock`, `game_name`, `opponent`, `player`, `unit`
+(`offense` / `defense` / `special_teams`), `team_colors` — plus a `segments`
+path that can be drawn straight onto a single 0-100 field.
+
+**The frame is the team that put the ball in play** (`frame: "snapping_team"`).
+They attack toward 100; 0 is the goal line they defend. On a kickoff the kicking
+team takes that role, so kick and punt returns behave like every other return.
+
+That convention is the point of the whole thing: direction encodes what
+happened. Explosive offensive plays run left to right; interception, fumble,
+punt and kick returns run right to left with a negative `net`. A pick-six draws
+as a short forward stub hinged into a long backward sweep and is legible as a
+pick-six before the reader has looked at a colour or a label. Normalizing to the
+credited team instead would point every arrow rightward and throw that away.
+
+The underlying rule is really "possession changed", not "the defense did it" — a
+sack or a tackle for loss also points left. That is fine on a board with a
+20-yard floor, but the direction annotation is only safe while it stays
+explosives-only.
+
+A segment is `{from, to, kind, by, origin_source}`, chronological. `kind` is one
+of `pass`, `run`, `punt`, `kick`, `return`, `lateral`, `sack`. `by` is the team
+that moved the ball on that leg, which is not always the snapping team — on a
+pick-six the return leg belongs to the defense. A play from scrimmage has
+exactly one segment; anything where the ball changed hands has two, so a
+renderer can draw the pre-turnover legs thin and the return thick.
+
+Punts and kickoffs include the kick itself as a segment rather than starting at
+the catch. Drawing the ball downfield and then most of the way back is honest
+but doubles the ink — emitting the leg leaves that as a rendering decision
+rather than a data one.
+
+**`origin_source` flags inference.** ESPN collapses some plays into a summary
+row with no field position anywhere in the text (`"Jacob Cowing 83 Yd Punt
+Return (Eddy Pineiro Kick)"`). The catch point is then back-solved from the
+credited yardage and the scoring end zone, and that segment is marked
+`"derived"` instead of `"play_text"`, so a chart can dash or footnote it. Never
+draw an inference as a measurement. `derived_count` gives the total at a glance.
+
+Three yardage numbers, deliberately separate:
+
+| Key | Meaning |
+| --- | --- |
+| `yardage` | ESPN's credited stat. What the play is "worth", and what the board sorts on. |
+| `path_yards` | Sum of `abs(to - from)` across segments. 135 on an 83-yard punt return, because the punt travelled 52. Stops a chart labelling an arrow "83" while drawing it 135 long. |
+| `net` | Signed displacement, first segment's `from` to last segment's `to`. Negative on every return. Drives arrow direction. |
+
+Worked example — Cowing's 83-yard punt return (`event_id` 401873285):
+
+```json
+{
+  "yardage": 83, "path_yards": 135, "net": -31,
+  "unit": "special_teams", "player": "Jacob Cowing",
+  "segments": [
+    {"from": 31, "to": 83, "kind": "punt",   "by": "LAC", "origin_source": "play_text"},
+    {"from": 83, "to": 0,  "kind": "return", "by": "SF",  "origin_source": "derived"}
+  ]
+}
+```
+
+LAC snapped at their own 31 and punted 52 yards; Cowing caught it at the 83 and
+ran it back into LAC's end zone.
 - **Turnover differential** reads each team's takeaways off its opponent's
   giveaways in the same game, so a week's differentials sum to zero.
 
