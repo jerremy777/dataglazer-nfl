@@ -78,6 +78,41 @@ def _contract(athlete: dict[str, Any]) -> dict[str, Any] | None:
     }
 
 
+def _zodiac_sign(birth_date: str | None) -> str | None:
+    """Western zodiac sign from ESPN's "YYYY-MM-DD..." birth date string.
+
+    Reads the date prefix directly rather than parsing a full timestamp: a
+    sign only depends on month/day, and ESPN's trailing "Z" offset isn't valid
+    input to `datetime.fromisoformat` before Python 3.11.
+    """
+    if not birth_date:
+        return None
+    month_day = (int(birth_date[5:7]), int(birth_date[8:10]))
+    if month_day >= (12, 22) or month_day <= (1, 19):
+        return "Capricorn"
+    if month_day <= (2, 18):
+        return "Aquarius"
+    if month_day <= (3, 20):
+        return "Pisces"
+    if month_day <= (4, 19):
+        return "Aries"
+    if month_day <= (5, 20):
+        return "Taurus"
+    if month_day <= (6, 20):
+        return "Gemini"
+    if month_day <= (7, 22):
+        return "Cancer"
+    if month_day <= (8, 22):
+        return "Leo"
+    if month_day <= (9, 22):
+        return "Virgo"
+    if month_day <= (10, 22):
+        return "Libra"
+    if month_day <= (11, 21):
+        return "Scorpio"
+    return "Sagittarius"
+
+
 def _injuries(athlete: dict[str, Any]) -> list[dict[str, Any]]:
     """Every injury on record, flattened. Empty for a healthy player.
 
@@ -134,10 +169,18 @@ def _player_row(
         "age": athlete.get("age"),
         "birth_date": athlete.get("dateOfBirth"),
         "birth_place": _birth_place(athlete.get("birthPlace")),
+        "zodiac": _zodiac_sign(athlete.get("dateOfBirth")),
         "experience_years": (athlete.get("experience") or {}).get("years"),
         # Roster standing, not health: this reads "Day-To-Day" even for a player
         # on season-ending IR. `injury_status` below is the reliable signal.
         "status": (athlete.get("status") or {}).get("name"),
+        "headshot": (athlete.get("headshot") or {}).get("href"),
+        "draft": _draft(athlete),
+        "contract": _contract(athlete),
+        # Hoisted from the first injury so filtering a roster on "who is
+        # Questionable" doesn't mean reaching into a nested list.
+        "injury_status": injuries[0]["status"] if injuries else None,
+        "injuries": injuries,
     }
 
     if include_depth:
@@ -146,17 +189,6 @@ def _player_row(
         row["rank"] = athlete.get("rank")
         row["depth"] = athlete.get("depth") or []
 
-    row.update(
-        {
-            "headshot": (athlete.get("headshot") or {}).get("href"),
-            "draft": _draft(athlete),
-            "contract": _contract(athlete),
-            # Hoisted from the first injury so filtering a roster on "who is
-            # Questionable" doesn't mean reaching into a nested list.
-            "injury_status": injuries[0]["status"] if injuries else None,
-            "injuries": injuries,
-        }
-    )
     return row
 
 

@@ -1,0 +1,35 @@
+"Notes","Month","Month Code",Births
+,"January","1",1334485
+,"February","2",1251924
+,"March","3",1389375
+,"April","4",1325727
+,"May","5",1386118
+,"June","6",1391436
+,"July","7",1448639
+,"August","8",1472625
+,"September","9",1453757
+,"October","10",1414507
+,"November","11",1343297
+,"December","12",1394016
+"Total",,,16605906
+"---"
+"Dataset: Natality, 2003-2006"
+"Query Parameters:"
+"Group By: Month"
+"Show Totals: True"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 1,000"
+"Population Option: No populations shown because rates were not selected."
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/natality.html for more information."
+"---"
+"Query Date: Aug 29, 2026 10:03:13 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Natality on CDC WONDER Online Database. Data are from the Natality Records 2003-2006, as compiled from data provided by"
+"the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed at"
+"http://wonder.cdc.gov/natality-v2006.html on Aug 29, 2026 10:03:13 PM"
+"---"
+Caveats:
+"1. Each birth record represents one liveborn infant."
