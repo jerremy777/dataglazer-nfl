@@ -65,23 +65,19 @@ def get_team_injuries(
                 "height_in": _int_or_none(athlete.get("height")),
                 "height": athlete.get("displayHeight"),
                 "weight_lb": _int_or_none(athlete.get("weight")),
+                "status": injury.get("status"),
+                # ESPN files the body part under `details.type` and the
+                # beat-reporter writeup under `shortComment`; that writeup is
+                # what this returns as `details`.
+                "injury_type": details.get("type"),
+                "details": injury.get("shortComment"),
+                "date": injury.get("date"),
             }
             if include_depth:
                 # Best depth-chart rank and every spot held, attached by
                 # `get_team_roster`. None/[] for players off the chart.
                 row["rank"] = athlete.get("rank")
                 row["depth"] = athlete.get("depth") or []
-            row.update(
-                {
-                    "status": injury.get("status"),
-                    # ESPN files the body part under `details.type` and the
-                    # beat-reporter writeup under `shortComment`; that writeup is
-                    # what this returns as `details`.
-                    "injury_type": details.get("type"),
-                    "details": injury.get("shortComment"),
-                    "date": injury.get("date"),
-                }
-            )
             rows.append(row)
     return rows
 
